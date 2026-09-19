@@ -33,7 +33,10 @@
     background-color: var(--background-color);
     word-wrap: break-word;
     overflow-wrap: break-word;
-    line-height: 1.5;
+        line-height: 1.5;
+    font-variant-numeric: tabular-nums;
+    -webkit-font-feature-settings: "tnum";
+    font-feature-settings: "tnum";
     color: var(--text-color);
   }
 
@@ -55,18 +58,19 @@
   }
 
   a:hover {
+    text-decoration: underline !important;
+  }
+
+  a.title,
+  a.title:hover,
+  .title,
+  .title:hover {
     text-decoration: none !important;
   }
 
-              
-
-  
-
-  
-
-  
-
-  nav 
+  .title h1 {
+    font-size: 1.5em;
+  }
 
   strong,
   b {
@@ -78,46 +82,19 @@
     cursor: pointer;
   }
 
-  time {
-    font-family: monospace;
-    font-style: normal;
-    font-size: 15px;
-  }
-
   main {
     line-height: 1.6;
   }
 
-    table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 1.5rem 0;
+  main > *:last-child {
+    margin: 0 !important;
   }
 
-    th,
-  td {
-    border: 1px dashed var(--heading-color);
-    padding: 0.6rem 0.75rem;
-    text-align: center;
-    color: var(--text-color);
-  }
-
-  
-
-      table th {
-    color: var(--heading-color) !important;
-    font-weight: 700;
-    position: relative;
-    border-bottom: 1px dashed var(--heading-color) !important;
-  }
-
-  table thead tr {
-    border-bottom: 1px dashed var(--heading-color) !important;
-  }
-
-  hr {
-    border: 0;
-    border-top: 1px dashed;
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--blockquote-color);
+    padding-left: 20px;
+    font-style: italic;
   }
 
   img {
@@ -128,27 +105,6 @@
     font-family: monospace;
     padding: 2px;
     border-radius: 3px;
-  }
-
-  blockquote {
-    border-left: 1px solid #999;
-    color: var(--blockquote-color);
-    padding-left: 20px;
-    font-style: italic;
-  }
-
-          main > *:last-child {
-    margin: 0 !important;
-  }
-
-  
-
-  .title:hover {
-    text-decoration: none;
-  }
-
-  .title h1 {
-    font-size: 1.5em;
   }
 
   .inline {
@@ -169,22 +125,14 @@
     width: max-content;
   }
 
-  /* blog post list */
-  ul.blog-posts {
-    list-style-type: none;
-    padding: unset;
-  }
-
-  
-  
-  
-  
-
-  /* Sembunyikan tanggal di daftar post maupun artikel */
-  time, .blog-date, .post-date {
+  /* Tanggal Sembunyi */
+  time,
+  .blog-date,
+  .post-date {
     display: none !important;
   }
 
+  /* Blog Post List (Em Dash & Hanging Indent) */
   ul.blog-posts {
     list-style: none !important;
     padding-left: 0 !important;
@@ -196,11 +144,10 @@
     margin: 0 !important;
   }
 
-  /* Ubah wadah span tanggal menjadi simbol em dash saja */
   ul.blog-posts li > span:first-child {
     display: inline-block !important;
     flex-shrink: 0 !important;
-    font-size: 0 !important; /* Hapus teks tanggal */
+    font-size: 0 !important;
     line-height: 1 !important;
     margin-right: 0.5rem !important;
     user-select: none;
@@ -217,145 +164,74 @@
     text-align: left !important;
   }
 
-  /* Navigasi Desktop */
-  
-
-  
-
-  
-
-  
-
-  /* Navigasi Khusus Mobile / HP */
-  
-
-    /* Hilangkan garis miring pemisah di HP agar tidak melipat acak */
-    
-
-    
+  /* Navigasi Desktop / PC (Mengalir Alami) */
+  .site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.35rem 0.6rem;
+    line-height: 1.4;
+    margin-top: 0.25rem;
+    margin-bottom: 1.25rem;
   }
 
-  /* Navigasi Bersih (Tanpa Duplikasi Separator) */
-  
-
-  
-
-  
-
-  
-    
+  .site-nav .nav-bracket {
+    display: none !important;
   }
 
-  
-  
-
-   }
-
-   }
-
-    header { margin-bottom: 0.5rem !important; padding-bottom: 0.25rem !important; } }
-
-    header { margin-bottom: 1rem !important; padding-bottom: 0 !important; } }
-
-  
-  
-  
-  
-}
-@media (max-width: 600px) {
-  h1, .title h1 {
-    margin-bottom: 0.35rem !important;
-  }
-  
-  
-  
-  
-}
-
-  nav a { text-decoration: none; }
-  nav a:hover, a:hover { text-decoration: underline !important; }
-
-  a.title, a.title:hover, .title, .title:hover { text-decoration: none !important; }
-
-  /* Styling Navigasi Presisi */
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  @media (max-width: 600px) {
-    
-    
-  }
-
-  /* Navigasi Kurung Siku [menu] */
-  
-
-  
-
-    
-
-  
-
-  
-
-  
-
-  @media (max-width: 600px) {
-    
-    
-  }
-
-  /* Footer Styling */
-  
-
-  
-
-  .back-to-top a {
-    color: var(--link-color);
-    text-decoration: none;
-  }
-
-  .back-to-top a:hover {
-    text-decoration: underline !important;
-  }
-
-  @media (max-width: 600px) {
-    
-  }
-
-  /* Copyright Hanging Indent */
-  
-
-  .copy-symbol {
-    flex-shrink: 0;
+  .site-nav .nav-item {
+    display: inline-flex;
+    align-items: baseline;
+    white-space: nowrap;
     user-select: none;
   }
 
-  .copy-text {
-    display: inline-block;
-    text-align: left;
+  .site-nav .nav-item a {
+    color: var(--link-color);
+    text-decoration: none;
+    white-space: nowrap;
   }
 
-  /* Footer Layout Presisi */
+  .site-nav .nav-item a:hover {
+    text-decoration: underline !important;
+  }
+
+  .site-nav .nav-item a.active {
+    font-weight: 700 !important;
+  }
+
+  .site-nav .nav-item:not(:last-child)::after {
+    content: "/";
+    margin-left: 0.6rem;
+    color: var(--text-color);
+    opacity: 0.35;
+    font-weight: 300;
+  }
+
+  /* Garis Pemisah (HR, Footer, Post Nav) */
+  hr {
+    border: none !important;
+    border-top: 1px dashed var(--heading-color) !important;
+    margin: 1.5rem 0 !important;
+    opacity: 1 !important;
+  }
+
   footer {
     margin-top: 1rem;
     padding: 1rem 0 1.5rem 0;
-    border-top: 1px dashed;
+    border-top: 1px dashed var(--heading-color) !important;
     font-size: 0.85rem;
-    opacity: 0.8;
+    opacity: 1 !important;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
+  nav.post-nav {
+    border-top: 1px dashed var(--heading-color) !important;
+  }
+
+  /* Elemen Footer */
   .footer-row {
     display: inline-flex;
     align-items: baseline;
@@ -363,7 +239,7 @@
 
   .footer-icon {
     display: inline-block;
-    width: 1.15rem; /* Lebar pengunci kolom simbol */
+    width: 1.15rem;
     flex-shrink: 0;
     text-align: left;
     user-select: none;
@@ -387,13 +263,44 @@
     text-decoration: underline !important;
   }
 
-  @media (max-width: 600px) {
-    footer {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 0.5rem;
-      padding-bottom: 2rem;
-    }
+  /* Tabel Artikel & Glosarium */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+  }
+
+  table,
+  table th,
+  table td,
+  table thead th,
+  table thead tr,
+  th,
+  td {
+    border: 1px dashed var(--heading-color) !important;
+  }
+
+  th,
+  td {
+    padding: 0.6rem 0.75rem;
+    text-align: center;
+    color: var(--text-color);
+    vertical-align: top !important;
+  }
+
+  table th,
+  table thead th,
+  th {
+    color: var(--heading-color) !important;
+    font-family: InterDisplay, sans-serif !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    position: relative;
+    border-bottom: 1px dashed var(--heading-color) !important;
+  }
+
+  table thead tr {
+    border-bottom: 1px dashed var(--heading-color) !important;
   }
 
   /* Tabel Glosarium Grid */
@@ -421,10 +328,9 @@
   }
 
   table.glossary-grid td a:hover {
-    text-decoration: none !important; /* Hilangkan underline saat di-hover */
+    text-decoration: none !important;
   }
 
-  /* Efek hover pada kotak kolom yang memiliki link */
   table.glossary-grid td:hover:has(a),
   table.glossary-grid td a:hover {
     background-color: rgba(125, 125, 125, 0.12);
@@ -439,194 +345,24 @@
     cursor: default;
   }
 
-  /* Navigasi Desktop: Normal Flex */
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  /* Navigasi Layar Kecil (Mobile): Rata Lebar & Kurung Siku Sejajar */
+  /* Media Queries: Mobile / HP (<= 600px) */
   @media (max-width: 600px) {
-    
+    h1,
+    .title h1 {
+      margin-bottom: 0.35rem !important;
+    }
 
-    
-
-    
-  }
-
-  /* Navigasi Rata Panjang (PC / Layar Lebar: 4 Kolom Rata) */
-  
-
-  
-
-  /* Warna kurung siku sama persis dengan teks normal (tanpa opasitas/pudar) */
-  
-
-  
-
-  
-
-  
-
-  /* Layar HP / Mobile: 2 Kolom Rata Panjang */
-  @media (max-width: 600px) {
-    
-  }
-
-  /* Navigasi Berseragam Garis Miring (Desktop & Layar HP) */
-  
-
-  /* Kurung siku dinonaktifkan total di semua layar */
-  .site-nav 
-
-  .site-nav 
-
-  .site-nav 
-
-  .site-nav 
-
-  .site-nav 
-
-  /* Pemisah garis miring "/" tipis menempel setelah tiap item (kecuali yang terakhir) */
-  .site-nav 
-
-  /* Penyesuaian kerapatan khusus layar HP */
-  
-
-  /* --- PC / Desktop: Format Mengalir Horizontal --- */
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  /* --- Layar HP (Mobile): Grid 2 Kolom, Garis Miring Sejajar Lurus --- */
-  @media (max-width: 600px) {
-    
-
-    
-
-    
-
-    /* Kunci posisi garis miring di ujung kanan tiap sel */
-    
-
-    /* Item terakhir (Tentang) disembunyikan slash-nya tapi tetap memakan ruang agar seimbang */
-    
-  }
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  /* Desktop: slash di tiap jeda */
-  
-
-  /* Mobile: 2 Kolom dengan slash HANYA di kolom kiri */
-  @media (max-width: 600px) {
-    
-
-    
-
-    /* Hilangkan slash bawaan */
-    
-
-    /* Pasang slash HANYA pada item ganjil (kolom 1: Mulai dari Sini & Glosarium) */
-    
-  }
-
-  /* --- Desktop / PC: Mengalir Alami --- */
-  .site-nav {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    gap: 0.35rem 0.6rem;
-    line-height: 1.4;
-    margin-top: 0.25rem;
-    margin-bottom: 1.25rem;
-  }
-
-  .site-nav .nav-bracket {
-    display: none !important;
-  }
-
-  .site-nav .nav-item {
-    display: inline-flex;
-    align-items: baseline;
-    white-space: nowrap;
-  }
-
-  .site-nav .nav-item a {
-    color: var(--link-color);
-    text-decoration: none;
-    white-space: nowrap;
-  }
-
-  .site-nav .nav-item a:hover {
-    text-decoration: underline !important;
-  }
-
-  .site-nav .nav-item a.active {
-    font-weight: 700 !important;
-  }
-
-  .site-nav .nav-item:not(:last-child)::after {
-    content: "/";
-    margin-left: 0.6rem;
-    color: var(--text-color);
-    opacity: 0.35;
-    font-weight: 300;
-  }
-
-  /* --- Mobile / Layar Kecil: 2 Kolom Seimbang Sempurna --- */
-  @media (max-width: 600px) {
     .site-nav {
       display: grid !important;
-      /* Kolom 1 menyesuaikan teks terpanjang kiri, Kolom 2 menyesuaikan teks kanan */
       grid-template-columns: max-content max-content !important;
       justify-content: flex-start !important;
       column-gap: 1.25rem !important;
       row-gap: 0.35rem !important;
       margin-bottom: 0.85rem !important;
       font-size: 0.95rem;
+      width: 100%;
     }
 
-    /* Hilangkan slash bawaan */
     .site-nav .nav-item:not(:last-child)::after {
       content: none !important;
     }
@@ -637,7 +373,6 @@
       width: 100% !important;
     }
 
-    /* Kolom kiri (Mulai dari Sini & Glosarium): teks rata kiri, slash mengunci di ujung kanan kolom */
     .site-nav .nav-item:nth-child(odd) {
       justify-content: space-between !important;
     }
@@ -651,10 +386,15 @@
       user-select: none;
     }
 
-    /* Kolom kanan (Semua Tulisan & Tentang): teks rata kiri */
     .site-nav .nav-item:nth-child(even) {
       justify-content: flex-start !important;
     }
+
+    footer {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+      padding-bottom: 2rem;
+    }
   }
 </style>
-

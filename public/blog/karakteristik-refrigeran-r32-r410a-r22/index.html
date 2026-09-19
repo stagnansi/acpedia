@@ -73,7 +73,10 @@
     background-color: var(--background-color);
     word-wrap: break-word;
     overflow-wrap: break-word;
-    line-height: 1.5;
+        line-height: 1.5;
+    font-variant-numeric: tabular-nums;
+    -webkit-font-feature-settings: "tnum";
+    font-feature-settings: "tnum";
     color: var(--text-color);
   }
 
@@ -95,18 +98,19 @@
   }
 
   a:hover {
+    text-decoration: underline !important;
+  }
+
+  a.title,
+  a.title:hover,
+  .title,
+  .title:hover {
     text-decoration: none !important;
   }
 
-              
-
-  
-
-  
-
-  
-
-  nav 
+  .title h1 {
+    font-size: 1.5em;
+  }
 
   strong,
   b {
@@ -118,46 +122,19 @@
     cursor: pointer;
   }
 
-  time {
-    font-family: monospace;
-    font-style: normal;
-    font-size: 15px;
-  }
-
   main {
     line-height: 1.6;
   }
 
-    table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 1.5rem 0;
+  main > *:last-child {
+    margin: 0 !important;
   }
 
-    th,
-  td {
-    border: 1px dashed var(--heading-color);
-    padding: 0.6rem 0.75rem;
-    text-align: center;
-    color: var(--text-color);
-  }
-
-  
-
-      table th {
-    color: var(--heading-color) !important;
-    font-weight: 700;
-    position: relative;
-    border-bottom: 1px dashed var(--heading-color) !important;
-  }
-
-  table thead tr {
-    border-bottom: 1px dashed var(--heading-color) !important;
-  }
-
-  hr {
-    border: 0;
-    border-top: 1px dashed;
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--blockquote-color);
+    padding-left: 20px;
+    font-style: italic;
   }
 
   img {
@@ -168,27 +145,6 @@
     font-family: monospace;
     padding: 2px;
     border-radius: 3px;
-  }
-
-  blockquote {
-    border-left: 1px solid #999;
-    color: var(--blockquote-color);
-    padding-left: 20px;
-    font-style: italic;
-  }
-
-          main > *:last-child {
-    margin: 0 !important;
-  }
-
-  
-
-  .title:hover {
-    text-decoration: none;
-  }
-
-  .title h1 {
-    font-size: 1.5em;
   }
 
   .inline {
@@ -210,21 +166,13 @@
   }
 
    
-  ul.blog-posts {
-    list-style-type: none;
-    padding: unset;
-  }
-
-  
-  
-  
-  
-
-   
-  time, .blog-date, .post-date {
+  time,
+  .blog-date,
+  .post-date {
     display: none !important;
   }
 
+   
   ul.blog-posts {
     list-style: none !important;
     padding-left: 0 !important;
@@ -236,11 +184,10 @@
     margin: 0 !important;
   }
 
-   
   ul.blog-posts li > span:first-child {
     display: inline-block !important;
     flex-shrink: 0 !important;
-    font-size: 0 !important;  
+    font-size: 0 !important;
     line-height: 1 !important;
     margin-right: 0.5rem !important;
     user-select: none;
@@ -258,144 +205,73 @@
   }
 
    
-  
-
-  
-
-  
-
-  
-
-   
-  
-
-     
-    
-
-    
+  .site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.35rem 0.6rem;
+    line-height: 1.4;
+    margin-top: 0.25rem;
+    margin-bottom: 1.25rem;
   }
 
-   
-  
-
-  
-
-  
-
-  
-    
+  .site-nav .nav-bracket {
+    display: none !important;
   }
 
-  
-  
-
-   }
-
-   }
-
-    header { margin-bottom: 0.5rem !important; padding-bottom: 0.25rem !important; } }
-
-    header { margin-bottom: 1rem !important; padding-bottom: 0 !important; } }
-
-  
-  
-  
-  
-}
-@media (max-width: 600px) {
-  h1, .title h1 {
-    margin-bottom: 0.35rem !important;
-  }
-  
-  
-  
-  
-}
-
-  nav a { text-decoration: none; }
-  nav a:hover, a:hover { text-decoration: underline !important; }
-
-  a.title, a.title:hover, .title, .title:hover { text-decoration: none !important; }
-
-   
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  @media (max-width: 600px) {
-    
-    
-  }
-
-   
-  
-
-  
-
-    
-
-  
-
-  
-
-  
-
-  @media (max-width: 600px) {
-    
-    
-  }
-
-   
-  
-
-  
-
-  .back-to-top a {
-    color: var(--link-color);
-    text-decoration: none;
-  }
-
-  .back-to-top a:hover {
-    text-decoration: underline !important;
-  }
-
-  @media (max-width: 600px) {
-    
-  }
-
-   
-  
-
-  .copy-symbol {
-    flex-shrink: 0;
+  .site-nav .nav-item {
+    display: inline-flex;
+    align-items: baseline;
+    white-space: nowrap;
     user-select: none;
   }
 
-  .copy-text {
-    display: inline-block;
-    text-align: left;
+  .site-nav .nav-item a {
+    color: var(--link-color);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .site-nav .nav-item a:hover {
+    text-decoration: underline !important;
+  }
+
+  .site-nav .nav-item a.active {
+    font-weight: 700 !important;
+  }
+
+  .site-nav .nav-item:not(:last-child)::after {
+    content: "/";
+    margin-left: 0.6rem;
+    color: var(--text-color);
+    opacity: 0.35;
+    font-weight: 300;
   }
 
    
+  hr {
+    border: none !important;
+    border-top: 1px dashed var(--heading-color) !important;
+    margin: 1.5rem 0 !important;
+    opacity: 1 !important;
+  }
+
   footer {
     margin-top: 1rem;
     padding: 1rem 0 1.5rem 0;
-    border-top: 1px dashed;
+    border-top: 1px dashed var(--heading-color) !important;
     font-size: 0.85rem;
-    opacity: 0.8;
+    opacity: 1 !important;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
+  nav.post-nav {
+    border-top: 1px dashed var(--heading-color) !important;
+  }
+
+   
   .footer-row {
     display: inline-flex;
     align-items: baseline;
@@ -403,7 +279,7 @@
 
   .footer-icon {
     display: inline-block;
-    width: 1.15rem;  
+    width: 1.15rem;
     flex-shrink: 0;
     text-align: left;
     user-select: none;
@@ -427,13 +303,44 @@
     text-decoration: underline !important;
   }
 
-  @media (max-width: 600px) {
-    footer {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 0.5rem;
-      padding-bottom: 2rem;
-    }
+   
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+  }
+
+  table,
+  table th,
+  table td,
+  table thead th,
+  table thead tr,
+  th,
+  td {
+    border: 1px dashed var(--heading-color) !important;
+  }
+
+  th,
+  td {
+    padding: 0.6rem 0.75rem;
+    text-align: center;
+    color: var(--text-color);
+    vertical-align: top !important;
+  }
+
+  table th,
+  table thead th,
+  th {
+    color: var(--heading-color) !important;
+    font-family: InterDisplay, sans-serif !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    position: relative;
+    border-bottom: 1px dashed var(--heading-color) !important;
+  }
+
+  table thead tr {
+    border-bottom: 1px dashed var(--heading-color) !important;
   }
 
    
@@ -461,10 +368,9 @@
   }
 
   table.glossary-grid td a:hover {
-    text-decoration: none !important;  
+    text-decoration: none !important;
   }
 
-   
   table.glossary-grid td:hover:has(a),
   table.glossary-grid td a:hover {
     background-color: rgba(125, 125, 125, 0.12);
@@ -480,193 +386,23 @@
   }
 
    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-   
   @media (max-width: 600px) {
-    
+    h1,
+    .title h1 {
+      margin-bottom: 0.35rem !important;
+    }
 
-    
-
-    
-  }
-
-   
-  
-
-  
-
-   
-  
-
-  
-
-  
-
-  
-
-   
-  @media (max-width: 600px) {
-    
-  }
-
-   
-  
-
-   
-  .site-nav 
-
-  .site-nav 
-
-  .site-nav 
-
-  .site-nav 
-
-  .site-nav 
-
-   
-  .site-nav 
-
-   
-  
-
-   
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-   
-  @media (max-width: 600px) {
-    
-
-    
-
-    
-
-     
-    
-
-     
-    
-  }
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-   
-  
-
-   
-  @media (max-width: 600px) {
-    
-
-    
-
-     
-    
-
-     
-    
-  }
-
-   
-  .site-nav {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    gap: 0.35rem 0.6rem;
-    line-height: 1.4;
-    margin-top: 0.25rem;
-    margin-bottom: 1.25rem;
-  }
-
-  .site-nav .nav-bracket {
-    display: none !important;
-  }
-
-  .site-nav .nav-item {
-    display: inline-flex;
-    align-items: baseline;
-    white-space: nowrap;
-  }
-
-  .site-nav .nav-item a {
-    color: var(--link-color);
-    text-decoration: none;
-    white-space: nowrap;
-  }
-
-  .site-nav .nav-item a:hover {
-    text-decoration: underline !important;
-  }
-
-  .site-nav .nav-item a.active {
-    font-weight: 700 !important;
-  }
-
-  .site-nav .nav-item:not(:last-child)::after {
-    content: "/";
-    margin-left: 0.6rem;
-    color: var(--text-color);
-    opacity: 0.35;
-    font-weight: 300;
-  }
-
-   
-  @media (max-width: 600px) {
     .site-nav {
       display: grid !important;
-       
       grid-template-columns: max-content max-content !important;
       justify-content: flex-start !important;
       column-gap: 1.25rem !important;
       row-gap: 0.35rem !important;
       margin-bottom: 0.85rem !important;
       font-size: 0.95rem;
+      width: 100%;
     }
 
-     
     .site-nav .nav-item:not(:last-child)::after {
       content: none !important;
     }
@@ -677,7 +413,6 @@
       width: 100% !important;
     }
 
-     
     .site-nav .nav-item:nth-child(odd) {
       justify-content: space-between !important;
     }
@@ -691,14 +426,18 @@
       user-select: none;
     }
 
-     
     .site-nav .nav-item:nth-child(even) {
       justify-content: flex-start !important;
     }
-  }
-</style>
 
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    footer {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+      padding-bottom: 2rem;
+    }
+  }
+</style><link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <meta property="og:title" content="Karakteristik Refrigeran: R32, R410A, dan R22 | ACPEDIA®" />
 <meta property="og:description" content="Tinjauan termodinamika, tekanan kerja, dan klasifikasi keamanan gas pendingin." />
 <meta property="og:type" content="article" />
