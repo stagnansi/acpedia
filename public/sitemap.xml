@@ -41,6 +41,8 @@
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/faq/</loc>
+  </url><url>
     <loc>http://localhost:1313/glosarium/</loc>
   </url><url>
     <loc>http://localhost:1313/blog/inverter-vs-standar/</loc>

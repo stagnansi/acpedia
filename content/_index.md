@@ -2,8 +2,9 @@
 title: "ACPEDIA®"
 ---
 
-Selamat datang di **ACPEDIA®** — ensiklopedia praktis seputar air conditioner (AC) berbahasa Indonesia.
+Selamat datang di **ACPEDIA®** — ensiklopedia praktis seputar pendingin udara (*air conditioner*) berbahasa Indonesia.
 
-Misi situs ini adalah membantu siapa saja—dari yang awam hingga paham betul—memilih, menggunakan, dan merawat AC secara tepat.
+Misi proyek ini adalah membantu siapa saja memahami cara kerja, kalkulasi PK yang tepat, instalasi baku, hingga perawatan unit secara mandiri.
 
-Silakan mulai dari rute terstruktur di halaman **[Mulai dari Sini](/mulai/)**.
+* Mulai alur panduan bertahap di **[Mulai dari Sini](/mulai/)**.
+* Eksplorasi seluruh arsip materi di **[Semua Tulisan →](/blog/)**.

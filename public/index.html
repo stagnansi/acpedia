@@ -15,9 +15,9 @@
 <meta property="og:url" content="http://localhost:1313/">
 	<meta property="og:site_name" content="ACPEDIA®">
 	<meta property="og:title" content="ACPEDIA®">
-	<meta property="og:description" content="Selamat datang di ACPEDIA® — ensiklopedia praktis seputar air conditioner (AC) berbahasa Indonesia.
-Misi situs ini adalah membantu siapa saja—dari yang awam hingga paham betul—memilih, menggunakan, dan merawat AC secara tepat.
-Silakan mulai dari rute terstruktur di halaman Mulai dari Sini.">
+	<meta property="og:description" content="Selamat datang di ACPEDIA® — ensiklopedia praktis seputar pendingin udara (air conditioner) berbahasa Indonesia.
+Misi proyek ini adalah membantu siapa saja memahami cara kerja, kalkulasi PK yang tepat, instalasi baku, hingga perawatan unit secara mandiri.
+Mulai alur panduan bertahap di Mulai dari Sini. Eksplorasi seluruh arsip materi di Semua Tulisan →.">
 	<meta property="og:locale" content="id_ID">
 	<meta property="og:type" content="website">
 
@@ -26,20 +26,20 @@ Silakan mulai dari rute terstruktur di halaman Mulai dari Sini.">
 
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="ACPEDIA®">
-	<meta name="twitter:description" content="Selamat datang di ACPEDIA® — ensiklopedia praktis seputar air conditioner (AC) berbahasa Indonesia.
-Misi situs ini adalah membantu siapa saja—dari yang awam hingga paham betul—memilih, menggunakan, dan merawat AC secara tepat.
-Silakan mulai dari rute terstruktur di halaman Mulai dari Sini.">
+	<meta name="twitter:description" content="Selamat datang di ACPEDIA® — ensiklopedia praktis seputar pendingin udara (air conditioner) berbahasa Indonesia.
+Misi proyek ini adalah membantu siapa saja memahami cara kerja, kalkulasi PK yang tepat, instalasi baku, hingga perawatan unit secara mandiri.
+Mulai alur panduan bertahap di Mulai dari Sini. Eksplorasi seluruh arsip materi di Semua Tulisan →.">
 
 
 
 
 	<meta itemprop="name" content="ACPEDIA®">
-	<meta itemprop="description" content="Selamat datang di ACPEDIA® — ensiklopedia praktis seputar air conditioner (AC) berbahasa Indonesia.
-Misi situs ini adalah membantu siapa saja—dari yang awam hingga paham betul—memilih, menggunakan, dan merawat AC secara tepat.
-Silakan mulai dari rute terstruktur di halaman Mulai dari Sini.">
+	<meta itemprop="description" content="Selamat datang di ACPEDIA® — ensiklopedia praktis seputar pendingin udara (air conditioner) berbahasa Indonesia.
+Misi proyek ini adalah membantu siapa saja memahami cara kerja, kalkulasi PK yang tepat, instalasi baku, hingga perawatan unit secara mandiri.
+Mulai alur panduan bertahap di Mulai dari Sini. Eksplorasi seluruh arsip materi di Semua Tulisan →.">
 	<meta itemprop="datePublished" content="2026-01-18T00:00:00+00:00">
 	<meta itemprop="dateModified" content="2026-01-18T00:00:00+00:00">
-	<meta itemprop="wordCount" content="41">
+	<meta itemprop="wordCount" content="51">
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="ACPEDIA®" />
@@ -254,23 +254,9 @@ Silakan mulai dari rute terstruktur di halaman Mulai dari Sini.">
   }
 
    
-  hr {
-    border: none !important;
-    border-top: 1px dashed var(--heading-color) !important;
-    margin: 1.5rem 0 !important;
-    opacity: 1 !important;
-  }
+  
 
-  footer {
-    margin-top: 1rem;
-    padding: 1rem 0 1.5rem 0;
-    border-top: 1px dashed var(--heading-color) !important;
-    font-size: 0.85rem;
-    opacity: 1 !important;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+  
 
   nav.post-nav {
     border-top: 1px dashed var(--heading-color) !important;
@@ -435,12 +421,131 @@ Silakan mulai dari rute terstruktur di halaman Mulai dari Sini.">
       justify-content: flex-start !important;
     }
 
-    footer {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 0.5rem;
-      padding-bottom: 2rem;
-    }
+    
+  }
+
+  
+  
+  
+  
+  
+  
+  
+
+   
+  
+
+   
+  details {
+    border-bottom: 1px dashed var(--heading-color);
+    padding: 0.5rem 0;
+    margin: 0;
+  }
+
+  
+
+  details summary {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    list-style: none;
+    color: var(--heading-color);
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  details summary:hover {
+    text-decoration: underline;
+  }
+
+  details summary::-webkit-details-marker {
+    display: none;
+  }
+
+  details summary::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 10px;
+    margin-top: 0.32em;
+    flex-shrink: 0;
+    background-color: currentColor;
+    -webkit-clip-path: polygon(0 0, 100% 50%, 0 100%);
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+    transition: transform 0.15s ease;
+    transform-origin: center center;
+  }
+
+  details[open] > summary::before {
+    transform: rotate(90deg);
+  }
+
+  details > p,
+  details > ul,
+  details > ol {
+    margin-top: 0.6rem;
+    margin-bottom: 0.4rem;
+    margin-left: 16px;
+    line-height: 1.5;
+  }
+
+   
+  main h3 {
+    margin-top: 2rem !important;
+    margin-bottom: 0.75rem !important;
+  }
+
+   
+  
+
+   
+  
+
+   
+  
+
+   
+  
+
+   
+  
+
+  
+
+   
+  
+
+   
+  details:last-of-type {
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  details:last-of-type[open] {
+    padding-bottom: 0.25rem !important;
+  }
+
+   
+  footer {
+    margin-top: 0.75rem !important;
+    padding: 0.75rem 0 0.75rem 0 !important;
+    border-top: 1px dashed var(--heading-color) !important;
+    font-size: 0.85rem;
+    opacity: 1 !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+   
+  hr {
+    border: none !important;
+    border-top: 1px dashed var(--heading-color) !important;
+    margin: 1.25rem 0 !important;
+    opacity: 1 !important;
   }
 </style><link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <meta property="og:title" content="ACPEDIA®" />
@@ -459,7 +564,7 @@ Silakan mulai dari rute terstruktur di halaman Mulai dari Sini.">
 <nav><nav class="site-nav"><span class="nav-item">
       <span class="nav-bracket">[</span><a href="/mulai/" class="">Mulai dari Sini</a><span class="nav-bracket">]</span>
     </span><span class="nav-item">
-      <span class="nav-bracket">[</span><a href="/blog/" class="">Semua Tulisan</a><span class="nav-bracket">]</span>
+      <span class="nav-bracket">[</span><a href="/faq/" class="">FAQ</a><span class="nav-bracket">]</span>
     </span><span class="nav-item">
       <span class="nav-bracket">[</span><a href="/glosarium/" class="">Glosarium</a><span class="nav-bracket">]</span>
     </span><span class="nav-item">
@@ -467,9 +572,12 @@ Silakan mulai dari rute terstruktur di halaman Mulai dari Sini.">
     </span></nav></nav>
 </header>
   <main>
-<p>Selamat datang di <strong>ACPEDIA®</strong> — ensiklopedia praktis seputar air conditioner (AC) berbahasa Indonesia.</p>
-<p>Misi situs ini adalah membantu siapa saja—dari yang awam hingga paham betul—memilih, menggunakan, dan merawat AC secara tepat.</p>
-<p>Silakan mulai dari rute terstruktur di halaman <strong><a href="/mulai/">Mulai dari Sini</a></strong>.</p>
+<p>Selamat datang di <strong>ACPEDIA®</strong> — ensiklopedia praktis seputar pendingin udara (<em>air conditioner</em>) berbahasa Indonesia.</p>
+<p>Misi proyek ini adalah membantu siapa saja memahami cara kerja, kalkulasi PK yang tepat, instalasi baku, hingga perawatan unit secara mandiri.</p>
+<ul>
+<li>Mulai alur panduan bertahap di <strong><a href="/mulai/">Mulai dari Sini</a></strong>.</li>
+<li>Eksplorasi seluruh arsip materi di <strong><a href="/blog/">Semua Tulisan →</a></strong>.</li>
+</ul>
 
 
   </main>
