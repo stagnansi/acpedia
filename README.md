@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Deploy](https://img.shields.io/badge/Deploy-Cloudflare%20Pages-orange.svg)](https://acpedia.pages.dev/)
 
-*ACPEDIA®** adalah platform repositori dan ensiklopedia teknis independen berbahasa Indonesia yang membahas teknologi pendingin udara (*Air Conditioner*) secara komprehensif dari A sampai Z.
+**ACPEDIA®** adalah platform repositori dan ensiklopedia teknis independen berbahasa Indonesia yang membahas teknologi pendingin udara (*Air Conditioner*) secara komprehensif dari A sampai Z.
 
 ---
 
