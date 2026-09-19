@@ -282,18 +282,11 @@
 
   
 
-  .nav-item a {
-    color: var(--link-color);
-    text-decoration: none;
-  }
+  
 
-  .nav-item a:hover {
-    text-decoration: underline !important;
-  }
+  
 
-  .nav-item a.active {
-    font-weight: 700 !important;
-  }
+  
 
   
 
@@ -303,53 +296,21 @@
   }
 
   /* Navigasi Kurung Siku [menu] */
-  .site-nav {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    gap: 0.4rem 0.5rem;
-    line-height: 1.5;
-    margin-top: 0.25rem;
-    margin-bottom: 1.25rem;
-  }
+  
 
-  .nav-item {
-    display: inline-flex;
-    align-items: baseline;
-    white-space: nowrap;
-    user-select: none;
-  }
+  
 
-    .nav-bracket {
-    color: var(--text-color) !important;
-    opacity: 1 !important;
-    font-weight: 400;
-  }
+    
 
-  .nav-item a {
-    color: var(--link-color);
-    text-decoration: none;
-    padding: 0 0.35rem; /* Jarak simetris teks ke kurung siku buka dan tutup */
-  }
+  
 
-  .nav-item a:hover {
-    text-decoration: underline !important;
-  }
+  
 
-  .nav-item a.active {
-    font-weight: 700 !important;
-  }
+  
 
   @media (max-width: 600px) {
-    .site-nav {
-      font-size: 0.9rem;
-      gap: 0.35rem 0.45rem;
-      line-height: 1.4;
-      margin-bottom: 1rem;
-    }
-    .nav-item a {
-      padding: 0 0.3rem;
-    }
+    
+    
   }
 
   /* Footer Styling */
@@ -476,6 +437,224 @@
     color: var(--heading-color);
     user-select: none;
     cursor: default;
+  }
+
+  /* Navigasi Desktop: Normal Flex */
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  /* Navigasi Layar Kecil (Mobile): Rata Lebar & Kurung Siku Sejajar */
+  @media (max-width: 600px) {
+    
+
+    
+
+    
+  }
+
+  /* Navigasi Rata Panjang (PC / Layar Lebar: 4 Kolom Rata) */
+  
+
+  
+
+  /* Warna kurung siku sama persis dengan teks normal (tanpa opasitas/pudar) */
+  
+
+  
+
+  
+
+  
+
+  /* Layar HP / Mobile: 2 Kolom Rata Panjang */
+  @media (max-width: 600px) {
+    
+  }
+
+  /* Navigasi Berseragam Garis Miring (Desktop & Layar HP) */
+  
+
+  /* Kurung siku dinonaktifkan total di semua layar */
+  .site-nav 
+
+  .site-nav 
+
+  .site-nav 
+
+  .site-nav 
+
+  .site-nav 
+
+  /* Pemisah garis miring "/" tipis menempel setelah tiap item (kecuali yang terakhir) */
+  .site-nav 
+
+  /* Penyesuaian kerapatan khusus layar HP */
+  
+
+  /* --- PC / Desktop: Format Mengalir Horizontal --- */
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  /* --- Layar HP (Mobile): Grid 2 Kolom, Garis Miring Sejajar Lurus --- */
+  @media (max-width: 600px) {
+    
+
+    
+
+    
+
+    /* Kunci posisi garis miring di ujung kanan tiap sel */
+    
+
+    /* Item terakhir (Tentang) disembunyikan slash-nya tapi tetap memakan ruang agar seimbang */
+    
+  }
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  /* Desktop: slash di tiap jeda */
+  
+
+  /* Mobile: 2 Kolom dengan slash HANYA di kolom kiri */
+  @media (max-width: 600px) {
+    
+
+    
+
+    /* Hilangkan slash bawaan */
+    
+
+    /* Pasang slash HANYA pada item ganjil (kolom 1: Mulai dari Sini & Glosarium) */
+    
+  }
+
+  /* --- Desktop / PC: Mengalir Alami --- */
+  .site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.35rem 0.6rem;
+    line-height: 1.4;
+    margin-top: 0.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .site-nav .nav-bracket {
+    display: none !important;
+  }
+
+  .site-nav .nav-item {
+    display: inline-flex;
+    align-items: baseline;
+    white-space: nowrap;
+  }
+
+  .site-nav .nav-item a {
+    color: var(--link-color);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .site-nav .nav-item a:hover {
+    text-decoration: underline !important;
+  }
+
+  .site-nav .nav-item a.active {
+    font-weight: 700 !important;
+  }
+
+  .site-nav .nav-item:not(:last-child)::after {
+    content: "/";
+    margin-left: 0.6rem;
+    color: var(--text-color);
+    opacity: 0.35;
+    font-weight: 300;
+  }
+
+  /* --- Mobile / Layar Kecil: 2 Kolom Seimbang Sempurna --- */
+  @media (max-width: 600px) {
+    .site-nav {
+      display: grid !important;
+      /* Kolom 1 menyesuaikan teks terpanjang kiri, Kolom 2 menyesuaikan teks kanan */
+      grid-template-columns: max-content max-content !important;
+      justify-content: flex-start !important;
+      column-gap: 1.25rem !important;
+      row-gap: 0.35rem !important;
+      margin-bottom: 0.85rem !important;
+      font-size: 0.95rem;
+    }
+
+    /* Hilangkan slash bawaan */
+    .site-nav .nav-item:not(:last-child)::after {
+      content: none !important;
+    }
+
+    .site-nav .nav-item {
+      display: flex !important;
+      align-items: center !important;
+      width: 100% !important;
+    }
+
+    /* Kolom kiri (Mulai dari Sini & Glosarium): teks rata kiri, slash mengunci di ujung kanan kolom */
+    .site-nav .nav-item:nth-child(odd) {
+      justify-content: space-between !important;
+    }
+
+    .site-nav .nav-item:nth-child(odd)::after {
+      content: "/" !important;
+      color: var(--text-color) !important;
+      opacity: 0.35 !important;
+      font-weight: 300 !important;
+      margin-left: 1.25rem !important;
+      user-select: none;
+    }
+
+    /* Kolom kanan (Semua Tulisan & Tentang): teks rata kiri */
+    .site-nav .nav-item:nth-child(even) {
+      justify-content: flex-start !important;
+    }
   }
 </style>
 
