@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Instalasi on ACPEDIA®</title>
+		<link>http://localhost:1313/tags/instalasi/</link>
+		<description>Recent content in Instalasi on ACPEDIA®</description>
+		<generator>Hugo</generator>
+		<language>id-ID</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/tags/instalasi/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Kenapa Pipa AC Wajib Divakum Saat Pemasangan Baru?</title>
+				<link>http://localhost:1313/blog/wajib-vakum-instalasi-ac/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/wajib-vakum-instalasi-ac/</guid>
+				<description>&lt;p&gt;Pelanggaran standar instalasi yang paling fatal adalah memasang unit baru &lt;strong&gt;tanpa memvakum pipa tembaga&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;bahaya-memasang-ac-tanpa-divakum&#34;&gt;Bahaya Memasang AC Tanpa Divakum:&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Udara Mengandung Oksigen:&lt;/strong&gt; Gas yang tidak bisa mencair ini memicu lonjakan tekanan kompresor dan membuat konsumsi listrik boros.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Uap Air Merusak Oli:&lt;/strong&gt; Uap air yang bercampur dengan freon dan oli kompresor akan terhidrolisis menjadi zat asam yang merusak dinamo kompresor.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Penyumbatan Es:&lt;/strong&gt; Titik uap air bisa membeku di katup ekspansi dan menyumbat sirkulasi freon.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Standar resmi mewajibkan pemvakuman menggunakan pompa vakum khusus hingga mencapai di bawah 500 mikron.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Standar Ketebalan dan Panjang Pipa AC yang Wajib Dipatuhi</title>
+				<link>http://localhost:1313/blog/standar-pipa-ac/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/standar-pipa-ac/</guid>
+				<description>&lt;p&gt;Banyak pengguna hanya fokus pada merk unit AC, padahal &lt;strong&gt;kualitas pipa tembaga&lt;/strong&gt; sangat menentukan keawetan unit.&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-standar-ketebalan-pipa-tembaga-minimal-061-mm&#34;&gt;1. Standar Ketebalan Pipa Tembaga (Minimal 0,61 mm)&lt;/h3&gt;&#xA;&lt;p&gt;AC modern menggunakan freon bertekanan tinggi seperti R32 atau R410A.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Bahaya pipa tipis (&amp;lt; 0,6 mm):&lt;/strong&gt; Rentan sobek saat &lt;em&gt;flaring&lt;/em&gt; dan rawan bocor halus terkena tekanan kerja tinggi.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Rekomendasi:&lt;/strong&gt; Gunakan pipa tembaga berstandar ketebalan minimal 0,61 mm hingga 0,76 mm.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-aturan-panjang-pipa-minimal-3-meter&#34;&gt;2. Aturan Panjang Pipa (Minimal 3 Meter)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Jalur pipa tembaga berfungsi sebagai ruang redam sirkulasi gas sebelum kembali ke kompresor.&lt;/li&gt;&#xA;&lt;li&gt;Pipa yang terlalu pendek (&amp;lt; 3 meter) berisiko menyebabkan cairan refrigeran masuk ke kompresor (&lt;em&gt;liquid hammer&lt;/em&gt;) dan membuat garansi pabrik hangus.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+	</channel>
+</rss>

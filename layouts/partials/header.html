@@ -1,4 +1,17 @@
-<a href="{{ "" | relURL }}" class="title">
-  <h2>{{ .Site.Title }}</h2>
+<a href="{{ .Site.BaseURL }}" class="title">
+  <h1>{{ .Site.Title }}</h1>
 </a>
-<nav>{{- partial "nav.html" . -}}</nav>
+<nav>
+  {{- $current := . -}}
+  {{- if .Site.Menus.main -}}
+    {{- range $index, $element := .Site.Menus.main -}}
+      {{- if gt $index 0 }}<span class="nav-sep">/</span>{{ end -}}
+      <a href="{{ .URL }}" class="{{ if or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) (eq (strings.TrimRight "/" $current.RelPermalink) (strings.TrimRight "/" .URL)) }}active{{ end }}">{{ .Name }}</a>
+    {{- end -}}
+  {{- else if .Site.Params.mainMenu -}}
+    {{- range $index, $element := .Site.Params.mainMenu -}}
+      {{- if gt $index 0 }}<span class="nav-sep">/</span>{{ end -}}
+      <a href="{{ .url }}" class="{{ if eq (strings.TrimRight "/" $current.RelPermalink) (strings.TrimRight "/" .url) }}active{{ end }}">{{ .name }}</a>
+    {{- end -}}
+  {{- end -}}
+</nav>

@@ -1,0 +1,31 @@
+{{ define "main" }}
+<main>
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  {{ if and (eq .Type "blog") (or .PrevInSection .NextInSection) }}
+  <nav class="post-nav" style="display: flex; justify-content: space-between; align-items: flex-start; gap: 2rem; margin-top: 2.5rem; padding-top: 1rem; border-top: 1px dashed;">
+    <div style="flex: 1; min-width: 0;">
+      {{ with .PrevInSection }}
+      <div style="display: flex; align-items: baseline; gap: 0.5rem;">
+        <span style="color: var(--link-color); user-select: none; flex-shrink: 0;">←</span>
+        <div style="text-align: left; min-width: 0;">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    <div style="flex: 1; min-width: 0;">
+      {{ with .NextInSection }}
+      <div style="display: flex; align-items: baseline; justify-content: flex-end; gap: 0.5rem;">
+        <div style="text-align: right; min-width: 0;">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </div>
+        <span style="color: var(--link-color); user-select: none; flex-shrink: 0;">→</span>
+      </div>
+      {{ end }}
+    </div>
+  </nav>
+  {{ end }}
+</main>
+{{ end }}

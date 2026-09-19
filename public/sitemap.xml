@@ -3,56 +3,92 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-09-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/apa-itu-pk-ac/</loc>
-    <lastmod>2026-09-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/cara-kerja-ac/</loc>
-    <lastmod>2026-09-19T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2026-09-19T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/dasar/</loc>
-    <lastmod>2026-09-19T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/blog/standar-pembacaan-kode-eror-ac/</loc>
+    <lastmod>2026-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/inverter/</loc>
-    <lastmod>2026-09-19T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/blog/analisis-pembekuan-pipa-refrigeran/</loc>
+    <lastmod>2026-01-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/inverter-vs-standar/</loc>
-    <lastmod>2026-09-19T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/blog/penyebab-indoor-ac-bocor-air/</loc>
+    <lastmod>2026-01-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/konsep/</loc>
-    <lastmod>2026-09-19T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/blog/kalkulasi-beban-pendinginan-btu-pk/</loc>
+    <lastmod>2026-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/mitos-freon-habis/</loc>
-    <lastmod>2026-09-19T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/blog/standar-pemasangan-pipa-refrigeran/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/panduan-beli/</loc>
-    <lastmod>2026-09-19T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/blog/prosedur-vakum-instalasi-ac/</loc>
+    <lastmod>2026-01-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/perawatan/</loc>
-    <lastmod>2026-09-19T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/blog/empat-komponen-utama-siklus-refrigerasi/</loc>
+    <lastmod>2026-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/cara-hitung-pk-ruangan/</loc>
-    <lastmod>2026-09-19T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/blog/karakteristik-refrigeran-r32-r410a-r22/</loc>
+    <lastmod>2026-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/spesifikasi/</loc>
-    <lastmod>2026-09-19T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/blog/ac-inverter-vs-non-inverter/</loc>
+    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-09-19T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/blog/fungsi-mode-remote-ac/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/troubleshooting/</loc>
-    <lastmod>2026-09-19T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/blog/cara-kerja-ac/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/dasar/</loc>
+  </url><url>
     <loc>http://localhost:1313/glosarium/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/instalasi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/inverter/</loc>
+  </url><url>
+    <loc>http://localhost:1313/blog/inverter-vs-standar/</loc>
+  </url><url>
+    <loc>http://localhost:1313/blog/wajib-vakum-instalasi-ac/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/konsep/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/mandiri/</loc>
+  </url><url>
+    <loc>http://localhost:1313/blog/apa-itu-pk-ac/</loc>
+  </url><url>
+    <loc>http://localhost:1313/blog/tipe-ac-rumah/</loc>
+  </url><url>
+    <loc>http://localhost:1313/blog/mitos-freon-habis/</loc>
+  </url><url>
+    <loc>http://localhost:1313/mulai-dari-sini/</loc>
   </url><url>
     <loc>http://localhost:1313/mulai/</loc>
   </url><url>
+    <loc>http://localhost:1313/blog/cara-cuci-filter-ac/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/panduan-beli/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/penggunaan/</loc>
+  </url><url>
+    <loc>http://localhost:1313/blog/penyebab-ac-bocor-air/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/perawatan/</loc>
+  </url><url>
+    <loc>http://localhost:1313/blog/cara-hitung-pk-ruangan/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/spesifikasi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/blog/standar-pipa-ac/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/teknis/</loc>
+  </url><url>
     <loc>http://localhost:1313/tentang/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/troubleshooting/</loc>
   </url>
 </urlset>

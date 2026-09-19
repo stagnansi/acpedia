@@ -1,10 +1,8 @@
-﻿---
-title: "Bagaimana Sebenarnya AC Mendinginkan Ruangan?"
-date: 2026-09-19
-tags: ["dasar", "konsep"]
-draft: false
----
-
++++
+title = "Bagaimana Sebenarnya AC Mendinginkan Ruangan?"
+tags = ["dasar", "konsep"]
+draft = false
++++
 AC sebenarnya **tidak memproduksi udara dingin**, melainkan menyerap panas dari dalam ruangan dan membuangnya ke luar rumah melalui siklus fluida refrigeran.
 
 ### Siklus 4 Tahap Sederhana:

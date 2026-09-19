@@ -10,15 +10,13 @@
 		
 		
 		
-			<lastBuildDate>Sat, 19 Sep 2026 00:00:00 +0000</lastBuildDate>
-		
 			<atom:link href="http://localhost:1313/tags/inverter/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Inverter vs Non-Inverter: Mana yang Lebih Hemat Listrik?</title>
 				<link>http://localhost:1313/blog/inverter-vs-standar/</link>
-				<pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/blog/inverter-vs-standar/</guid>
-				<description>&lt;p&gt;Perbedaan mendasar AC Inverter dan Non-Inverter (Standar) terletak pada &lt;strong&gt;cara kerja motor kompresornya&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;AC Non-Inverter (Standar):&lt;/strong&gt; Kompresor bekerja secara &lt;em&gt;On/Off&lt;/em&gt;. Begitu suhu kamar tercapai, kompresor mati total. Saat suhu ruangan naik kembali, kompresor menyala mendadak dengan tarikan daya listrik awal yang tinggi.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;AC Inverter:&lt;/strong&gt; Kompresor bekerja secara dinamis. Saat ruangan mulai sejuk, kompresor tidak mati, melainkan menurunkan putaran mesinnya ke tingkat minimum (daya watt turun drastis).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;mana-yang-harus-anda-pilih&#34;&gt;Mana yang Harus Anda Pilih?&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Pilih Inverter jika:&lt;/strong&gt; AC digunakan dalam durasi panjang (&amp;gt; 6–8 jam berturut-turut), seperti di kamar tidur saat malam hari, dengan pintu/jendela tertutup rapat.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Pilih Non-Inverter jika:&lt;/strong&gt; AC dipasang di ruangan dengan lalu lintas pintu terbuka-tutup tinggi (ruang tamu/toko) atau pemakaian singkat (1–3 jam saja).&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+				<description>&lt;p&gt;Perbedaan mendasar AC Inverter dan Non-Inverter (Standar) terletak pada &lt;strong&gt;cara kerja motor kompresornya&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;AC Non-Inverter (Standar):&lt;/strong&gt; Kompresor bekerja secara &lt;em&gt;On/Off&lt;/em&gt;. Begitu suhu kamar tercapai, kompresor mati total. Saat suhu kamar naik kembali, kompresor menyala mendadak dengan tarikan daya listrik awal yang tinggi.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;AC Inverter:&lt;/strong&gt; Kompresor bekerja secara dinamis. Saat ruangan mulai sejuk, kompresor menurunkan putaran mesinnya ke tingkat minimum tanpa pernah mati total.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;mana-yang-harus-dipilih&#34;&gt;Mana yang Harus Dipilih?&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Pilih Inverter jika:&lt;/strong&gt; AC digunakan dalam durasi panjang (&amp;gt; 6–8 jam berturut-turut), seperti kamar tidur utama di malam hari.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Pilih Non-Inverter jika:&lt;/strong&gt; AC dipasang di ruangan dengan lalu lintas pintu terbuka-tutup tinggi (ruang tamu/toko) atau durasi nyala singkat (1–3 jam).&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
 			</item>
 	</channel>
 </rss>

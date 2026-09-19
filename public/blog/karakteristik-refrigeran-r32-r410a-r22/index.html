@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="id-ID">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Karakteristik Refrigeran: R32, R410A, dan R22 | ACPEDIA®</title>
+<meta name="title" content="Karakteristik Refrigeran: R32, R410A, dan R22" />
+<meta name="description" content="Tinjauan termodinamika, tekanan kerja, dan klasifikasi keamanan gas pendingin." />
+<meta name="keywords" content="" />
+
+
+<meta property="og:url" content="http://localhost:1313/blog/karakteristik-refrigeran-r32-r410a-r22/">
+	<meta property="og:site_name" content="ACPEDIA®">
+	<meta property="og:title" content="Karakteristik Refrigeran: R32, R410A, dan R22">
+	<meta property="og:description" content="Tinjauan termodinamika, tekanan kerja, dan klasifikasi keamanan gas pendingin.">
+	<meta property="og:locale" content="id_ID">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="blog">
+		<meta property="article:published_time" content="2026-01-11T00:00:00+00:00">
+		<meta property="article:modified_time" content="2026-01-11T00:00:00+00:00">
+
+
+
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Karakteristik Refrigeran: R32, R410A, dan R22">
+	<meta name="twitter:description" content="Tinjauan termodinamika, tekanan kerja, dan klasifikasi keamanan gas pendingin.">
+
+
+
+
+	<meta itemprop="name" content="Karakteristik Refrigeran: R32, R410A, dan R22">
+	<meta itemprop="description" content="Tinjauan termodinamika, tekanan kerja, dan klasifikasi keamanan gas pendingin.">
+	<meta itemprop="datePublished" content="2026-01-11T00:00:00+00:00">
+	<meta itemprop="dateModified" content="2026-01-11T00:00:00+00:00">
+	<meta itemprop="wordCount" content="152">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: InterDisplay, sans-serif;
+    --font-secondary: Inter, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #3273dc;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8cc2dd;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+    line-height: 1.2;
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+              nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  nav a {
+    margin-right: 0;
+    color: var(--link-color);
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  nav a.active {
+    font-weight: 700 !important;
+  }
+
+  nav .nav-sep {
+    margin: 0 10px;
+    color: var(--text-color);
+    opacity: 0.35;
+    font-weight: 300;
+    user-select: none;
+    pointer-events: none;
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+  }
+
+    th,
+  td {
+    border: 1px dashed var(--heading-color);
+    padding: 0.6rem 0.75rem;
+    text-align: center;
+    color: var(--text-color);
+  }
+
+  table.glossary-grid td a {
+    display: block;
+    padding: 0.75rem 0;
+    font-weight: 600;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    color: var(--link-color);
+  }
+
+      table th {
+    color: var(--heading-color) !important;
+    font-weight: 700;
+    position: relative;
+    border-bottom: 1px dashed var(--heading-color) !important;
+  }
+
+  table thead tr {
+    border-bottom: 1px dashed var(--heading-color) !important;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--blockquote-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+          main > *:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  footer {
+    margin-top: 1rem;
+    padding: 1rem 0 1.5rem 0;
+    border-top: 1px dashed;
+    font-size: 0.85rem;
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+  .highlight pre,
+  .code pre {
+    min-width: 100%;
+    width: max-content;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span { display: none !important; }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+  ul {
+    list-style-type: "— ";
+  }
+
+  ul.blog-posts {
+    list-style-type: "— " !important;
+    list-style-position: inside !important;
+    padding-left: 0 !important;
+    margin-top: 1.25rem !important;
+    margin-bottom: 1.25rem !important;
+  }
+
+  ul.blog-posts li {
+    display: list-item !important;
+    margin-top: 0 !important;
+    margin-bottom: 0.1rem !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    line-height: 1.4 !important;
+  }
+
+   
+  main time,
+  content time,
+  main > p:first-of-type:has(time),
+  content > p:first-of-type:has(time) {
+    display: none !important;
+  }
+  @media (max-width: 600px) {
+    nav.post-nav {
+      flex-direction: column !important;
+      align-items: stretch !important;
+      gap: 1.25rem !important;
+    }
+    nav.post-nav > div {
+      width: 100% !important;
+    }
+    nav.post-nav > div:last-child > div {
+      justify-content: flex-start !important;
+      flex-direction: row-reverse !important;
+    }
+    nav.post-nav > div:last-child div {
+      text-align: left !important;
+    }
+  }
+    table.glossary-grid {
+    table-layout: fixed;
+    width: 100%;
+  }
+
+  table.glossary-grid td {
+    padding: 0;
+    width: 16.666%;
+    text-align: center;
+  }
+  table.glossary-grid td a {
+    display: block;
+    padding: 0.75rem 0;
+    font-weight: 600;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+  }
+  table.glossary-grid td a:hover {
+    background-color: rgba(125, 125, 125, 0.08);
+    text-decoration: none;
+  }
+  table.glossary-grid td .disabled-letter {
+    display: block;
+    padding: 0.75rem 0;
+    font-weight: 600;
+    color: var(--heading-color);
+    user-select: none;
+    cursor: default;
+  }
+    
+  table th,
+  table thead th,
+  th {
+    vertical-align: top !important;
+    text-align: left !important;
+    background-color: rgba(125, 125, 125, 0.08) !important;
+    color: var(--heading-color) !important;
+    font-size: 0.85rem !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.05em !important;
+    padding: 0.75rem !important;
+    border-bottom: 1px dashed var(--heading-color) !important;
+  }
+
+  table thead th, table th, th { vertical-align: top !important; display: table-cell !important; }
+
+  table th, table td, th, td { vertical-align: top !important; }
+  table th *, table td * { vertical-align: top !important; margin-top: 0 !important; }
+
+  table th, table thead th, table thead tr { border-bottom: 1px dashed var(--heading-color) !important; }
+
+  thead, thead tr, table thead th, table th { border-bottom: 1px dashed var(--heading-color) !important; font-weight: inherit; }
+</style>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta property="og:title" content="Karakteristik Refrigeran: R32, R410A, dan R22 | ACPEDIA®" />
+<meta property="og:description" content="Tinjauan termodinamika, tekanan kerja, dan klasifikasi keamanan gas pendingin." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/blog/karakteristik-refrigeran-r32-r410a-r22/" />
+<meta property="og:site_name" content="ACPEDIA®" />
+<meta name="twitter:card" content="summary" /></head>
+
+<body>
+  <header><a href="http://localhost:1313/" class="title">
+  <h1>ACPEDIA®</h1>
+</a>
+<nav><a href="/mulai/" class="">Mulai dari Sini</a><span class="nav-sep">/</span><a href="/blog/" class="">Semua Tulisan</a><span class="nav-sep">/</span><a href="/tags/" class="">Topik</a><span class="nav-sep">/</span><a href="/glosarium/" class="">Glosarium</a><span class="nav-sep">/</span><a href="/tentang/" class="">Tentang</a></nav></header>
+  <main>
+<main>
+  <h1>Karakteristik Refrigeran: R32, R410A, dan R22</h1>
+  <p>Evolusi refrigeran didorong oleh regulasi perlindungan lapisan ozon dan penurunan potensi pemanasan global (<em>Global Warming Potential</em>).</p>
+<h3 id="spesifikasi-termodinamika">Spesifikasi Termodinamika</h3>
+<table>
+	<thead>
+			<tr>
+					<th style="text-align: left">Parameter</th>
+					<th style="text-align: left">R22 (HCFC)</th>
+					<th style="text-align: left">R410A (HFC Blend)</th>
+					<th style="text-align: left">R32 (HFC Pure)</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td style="text-align: left"><strong>Komposisi</strong></td>
+					<td style="text-align: left">Senyawa tunggal</td>
+					<td style="text-align: left">Campuran 50/50 R32 &amp; R125</td>
+					<td style="text-align: left">Senyawa tunggal murni</td>
+			</tr>
+			<tr>
+					<td style="text-align: left"><strong>Tekanan Kerja (Low/High)</strong></td>
+					<td style="text-align: left">60–80 psi / 200–250 psi</td>
+					<td style="text-align: left">120–140 psi / 350–420 psi</td>
+					<td style="text-align: left">130–150 psi / 380–450 psi</td>
+			</tr>
+			<tr>
+					<td style="text-align: left"><strong>ODP (Ozone Depletion)</strong></td>
+					<td style="text-align: left">0.055</td>
+					<td style="text-align: left">0</td>
+					<td style="text-align: left">0</td>
+			</tr>
+			<tr>
+					<td style="text-align: left"><strong>GWP (Global Warming)</strong></td>
+					<td style="text-align: left">1810</td>
+					<td style="text-align: left">2088</td>
+					<td style="text-align: left">675</td>
+			</tr>
+			<tr>
+					<td style="text-align: left"><strong>Klasifikasi ASHRAE</strong></td>
+					<td style="text-align: left">A1 (Non-flammable)</td>
+					<td style="text-align: left">A1 (Non-flammable)</td>
+					<td style="text-align: left">A2L (Mildly flammable)</td>
+			</tr>
+			<tr>
+					<td style="text-align: left"><strong>Tipe Pelumas</strong></td>
+					<td style="text-align: left">Minyak Mineral</td>
+					<td style="text-align: left">Synthetic Polyolester (POE)</td>
+					<td style="text-align: left">Synthetic Polyolester (POE)</td>
+			</tr>
+	</tbody>
+</table>
+<h3 id="aspek-penanganan-lapangan">Aspek Penanganan Lapangan</h3>
+<ul>
+<li><strong>R22:</strong> Dilarang untuk unit manufaktur baru karena merusak ozon.</li>
+<li><strong>R410A:</strong> Merupakan campuran non-azeotropik. Jika terjadi kebocoran fraksional, rasio kedua komponen dapat bergeser sehingga dianjurkan mengosongkan sisa fluida dan mengisi ulang dari fasa cair (<em>liquid phase</em>).</li>
+<li><strong>R32:</strong> Memiliki efisiensi volumetrik lebih tinggi (~20% lebih baik dibanding R410A). Karena masuk kategori A2L, area instalasi dilarang memiliki titik api langsung dan instalasi wajib bebas kebocoran.</li>
+</ul>
+
+
+  
+  <nav class="post-nav" style="display: flex; justify-content: space-between; align-items: flex-start; gap: 2rem; margin-top: 2.5rem; padding-top: 1rem; border-top: 1px dashed;">
+    <div style="flex: 1; min-width: 0;">
+      
+      <div style="display: flex; align-items: baseline; gap: 0.5rem;">
+        <span style="color: var(--link-color); user-select: none; flex-shrink: 0;">←</span>
+        <div style="text-align: left; min-width: 0;">
+          <a href="/blog/ac-inverter-vs-non-inverter/">Komparasi AC Inverter vs Non-Inverter</a>
+        </div>
+      </div>
+      
+    </div>
+    <div style="flex: 1; min-width: 0;">
+      
+      <div style="display: flex; align-items: baseline; justify-content: flex-end; gap: 0.5rem;">
+        <div style="text-align: right; min-width: 0;">
+          <a href="/blog/empat-komponen-utama-siklus-refrigerasi/">Empat Komponen Utama Siklus Refrigerasi</a>
+        </div>
+        <span style="color: var(--link-color); user-select: none; flex-shrink: 0;">→</span>
+      </div>
+      
+    </div>
+  </nav>
+  
+</main>
+
+  </main>
+  <footer><span>© 2026 ACPEDIA® — Hak cipta dilindungi.</span>
+<a href="#" style="color: var(--link-color); text-decoration: none;">↑ Kembali ke atas</a></footer>
+
+  
+</body>
+
+</html>

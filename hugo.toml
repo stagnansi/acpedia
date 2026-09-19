@@ -9,6 +9,14 @@ title = "ACPEDIA®"
     title = "ACPEDIA®"
 
 [params]
+  post_navigation = true
+  madeWith = false
+  copyright = "© 2026 ACPEDIA®"
+  
+  
+  
+  
+  
   description = "Ensiklopedia dan panduan pendingin ruangan (AC) dari A sampai Z untuk pemula."
   author = "ACPEDIA®"
   theme = "toggle"
@@ -38,3 +46,7 @@ title = "ACPEDIA®"
     name = "Tentang"
     url = "/tentang/"
     weight = 5
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

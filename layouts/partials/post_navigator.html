@@ -1,0 +1,14 @@
+{{ if or .PrevInSection .NextInSection }}
+<nav class="post-nav" style="display: flex; justify-content: space-between; margin-top: 2.5rem; padding-top: 1rem; border-top: 1px dashed;">
+  <div>
+    {{ with .PrevInSection }}
+      <a href="{{ .RelPermalink }}">← {{ .Title }}</a>
+    {{ end }}
+  </div>
+  <div style="text-align: right;">
+    {{ with .NextInSection }}
+      <a href="{{ .RelPermalink }}">{{ .Title }} →</a>
+    {{ end }}
+  </div>
+</nav>
+{{ end }}
