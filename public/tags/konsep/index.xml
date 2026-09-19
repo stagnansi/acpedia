@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Konsep on ACPEDIA®</title>
+		<link>http://localhost:1313/tags/konsep/</link>
+		<description>Recent content in Konsep on ACPEDIA®</description>
+		<generator>Hugo</generator>
+		<language>id-ID</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 19 Sep 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/konsep/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Bagaimana Sebenarnya AC Mendinginkan Ruangan?</title>
+				<link>http://localhost:1313/blog/cara-kerja-ac/</link>
+				<pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/cara-kerja-ac/</guid>
+				<description>&lt;p&gt;AC sebenarnya &lt;strong&gt;tidak memproduksi udara dingin&lt;/strong&gt;, melainkan menyerap panas dari dalam ruangan dan membuangnya ke luar rumah melalui siklus fluida refrigeran.&lt;/p&gt;&#xA;&lt;h3 id=&#34;siklus-4-tahap-sederhana&#34;&gt;Siklus 4 Tahap Sederhana:&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Udara ruangan disedot oleh blower unit indoor melewati kisi-kisi pipa dingin (&lt;strong&gt;Evaporator&lt;/strong&gt;).&lt;/li&gt;&#xA;&lt;li&gt;Panas udara diserap oleh cairan &lt;strong&gt;Refrigeran&lt;/strong&gt; di dalam pipa tersebut sehingga udara yang keluar kembali menjadi sejuk.&lt;/li&gt;&#xA;&lt;li&gt;Refrigeran pembawa panas dipompa oleh &lt;strong&gt;Kompresor&lt;/strong&gt; menuju unit di luar ruangan (&lt;strong&gt;Outdoor&lt;/strong&gt;).&lt;/li&gt;&#xA;&lt;li&gt;Di unit outdoor, kipas membuang panas tersebut ke udara bebas melalui &lt;strong&gt;Kondensor&lt;/strong&gt;. Setelah dingin kembali, refrigeran dialirkan kembali ke indoor.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+			</item>
+	</channel>
+</rss>

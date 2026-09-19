@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>ACPEDIA®</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content on ACPEDIA®</description>
+		<generator>Hugo</generator>
+		<language>id-ID</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 19 Sep 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Apa Itu PK pada AC dan Cara Menghitungnya?</title>
+				<link>http://localhost:1313/blog/apa-itu-pk-ac/</link>
+				<pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/apa-itu-pk-ac/</guid>
+				<description>&lt;p&gt;Banyak orang mengira PK adalah singkatan dari penentu dingin atau tidaknya AC secara langsung.&lt;/p&gt;&#xA;&lt;p&gt;Secara harfiah, &lt;strong&gt;PK&lt;/strong&gt; berasal dari bahasa Belanda (&lt;em&gt;Paardekracht&lt;/em&gt;) yang berarti tenaga kuda (&lt;em&gt;Horsepower&lt;/em&gt; atau HP). Dalam sistem pendingin, PK menunjukkan daya penggerak kompresor, sedangkan kapasitas pendinginan sebenarnya diukur dalam satuan &lt;strong&gt;BTU/h&lt;/strong&gt; (&lt;em&gt;British Thermal Unit per hour&lt;/em&gt;).&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Bagaimana Sebenarnya AC Mendinginkan Ruangan?</title>
+				<link>http://localhost:1313/blog/cara-kerja-ac/</link>
+				<pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/cara-kerja-ac/</guid>
+				<description>&lt;p&gt;AC sebenarnya &lt;strong&gt;tidak memproduksi udara dingin&lt;/strong&gt;, melainkan menyerap panas dari dalam ruangan dan membuangnya ke luar rumah melalui siklus fluida refrigeran.&lt;/p&gt;&#xA;&lt;h3 id=&#34;siklus-4-tahap-sederhana&#34;&gt;Siklus 4 Tahap Sederhana:&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Udara ruangan disedot oleh blower unit indoor melewati kisi-kisi pipa dingin (&lt;strong&gt;Evaporator&lt;/strong&gt;).&lt;/li&gt;&#xA;&lt;li&gt;Panas udara diserap oleh cairan &lt;strong&gt;Refrigeran&lt;/strong&gt; di dalam pipa tersebut sehingga udara yang keluar kembali menjadi sejuk.&lt;/li&gt;&#xA;&lt;li&gt;Refrigeran pembawa panas dipompa oleh &lt;strong&gt;Kompresor&lt;/strong&gt; menuju unit di luar ruangan (&lt;strong&gt;Outdoor&lt;/strong&gt;).&lt;/li&gt;&#xA;&lt;li&gt;Di unit outdoor, kipas membuang panas tersebut ke udara bebas melalui &lt;strong&gt;Kondensor&lt;/strong&gt;. Setelah dingin kembali, refrigeran dialirkan kembali ke indoor.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+			</item>
+			<item>
+				<title>Inverter vs Non-Inverter: Mana yang Lebih Hemat Listrik?</title>
+				<link>http://localhost:1313/blog/inverter-vs-standar/</link>
+				<pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/inverter-vs-standar/</guid>
+				<description>&lt;p&gt;Perbedaan mendasar AC Inverter dan Non-Inverter (Standar) terletak pada &lt;strong&gt;cara kerja motor kompresornya&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;AC Non-Inverter (Standar):&lt;/strong&gt; Kompresor bekerja secara &lt;em&gt;On/Off&lt;/em&gt;. Begitu suhu kamar tercapai, kompresor mati total. Saat suhu ruangan naik kembali, kompresor menyala mendadak dengan tarikan daya listrik awal yang tinggi.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;AC Inverter:&lt;/strong&gt; Kompresor bekerja secara dinamis. Saat ruangan mulai sejuk, kompresor tidak mati, melainkan menurunkan putaran mesinnya ke tingkat minimum (daya watt turun drastis).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;mana-yang-harus-anda-pilih&#34;&gt;Mana yang Harus Anda Pilih?&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Pilih Inverter jika:&lt;/strong&gt; AC digunakan dalam durasi panjang (&amp;gt; 6–8 jam berturut-turut), seperti di kamar tidur saat malam hari, dengan pintu/jendela tertutup rapat.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Pilih Non-Inverter jika:&lt;/strong&gt; AC dipasang di ruangan dengan lalu lintas pintu terbuka-tutup tinggi (ruang tamu/toko) atau pemakaian singkat (1–3 jam saja).&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>Mitos Isi Ulang Freon: AC Tidak Pernah Kehabisan Freon Jika Tidak Bocor</title>
+				<link>http://localhost:1313/blog/mitos-freon-habis/</link>
+				<pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/mitos-freon-habis/</guid>
+				<description>&lt;p&gt;Salah satu bentuk penipuan yang paling sering dialami pengguna AC awam adalah teknisi nakal yang menyatakan: &lt;em&gt;&amp;ldquo;AC tidak dingin karena freonnya habis dan harus ditambah tiap 3 atau 6 bulan sekali.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;faktanya&#34;&gt;Faktanya:&lt;/h3&gt;&#xA;&lt;p&gt;Sistem pendingin AC adalah &lt;strong&gt;sistem sirkulasi tertutup rapat&lt;/strong&gt; (&lt;em&gt;hermetic cycle&lt;/em&gt;). Freon tidak terbakar, tidak menguap ke udara, dan tidak bisa berkurang dengan sendirinya seperti bensin pada kendaraan.&lt;/p&gt;&#xA;&lt;p&gt;Jika tekanan freon turun atau habis, penyebabnya &lt;strong&gt;pasti kebocoran fisik&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Sambungan &lt;em&gt;flaring&lt;/em&gt; pipa kurang rapat/retak.&lt;/li&gt;&#xA;&lt;li&gt;Terjadi korosi atau karat pada kisi tembaga/aluminium.&lt;/li&gt;&#xA;&lt;li&gt;Pipa tertekuk atau berlubang.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Solusi Benar:&lt;/strong&gt; Jangan pernah menyetujui isi ulang freon sebelum teknisi melacak dan menambal titik kebocorannya terlebih dahulu. Jika hanya diisi ulang tanpa ditambal, gas tersebut akan habis kembali dalam beberapa minggu.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Rumus Menghitung Kebutuhan PK AC Berdasarkan Luas Ruangan</title>
+				<link>http://localhost:1313/blog/cara-hitung-pk-ruangan/</link>
+				<pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/cara-hitung-pk-ruangan/</guid>
+				<description>&lt;p&gt;Kebutuhan pendinginan ruangan diukur menggunakan satuan &lt;strong&gt;BTU/h&lt;/strong&gt;. Rumus dasarnya adalah:&lt;/p&gt;&#xA;&lt;p&gt;$$\text{Kebutuhan BTU} = \text{Panjang (m)} \times \text{Lebar (m)} \times 500$$&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;(Angka 500 adalah koefisien standar untuk ruangan tinggi plafon 2,5–3 meter di iklim tropis).&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;konversi-nilai-btu-ke-ukuran-pk-ac&#34;&gt;Konversi Nilai BTU ke Ukuran PK AC:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;½ PK:&lt;/strong&gt; ± 5.000 BTU/h (Maksimal ruangan 3 × 3 m)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;¾ PK:&lt;/strong&gt; ± 7.000 BTU/h (Maksimal ruangan 3 × 4 m)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1 PK:&lt;/strong&gt; ± 9.000 BTU/h (Maksimal ruangan 4 × 4 m atau 3 × 5 m)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1½ PK:&lt;/strong&gt; ± 12.000 BTU/h (Maksimal ruangan 4 × 6 m)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;2 PK:&lt;/strong&gt; ± 18.000 BTU/h (Maksimal ruangan 6 × 6 m)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>Glosarium Istilah AC</title>
+				<link>http://localhost:1313/glosarium/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/glosarium/</guid>
+				<description>&lt;p&gt;Daftar istilah dan singkatan teknis seputar AC yang dijelaskan dengan bahasa awam:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;BTU/h (&lt;em&gt;British Thermal Unit per hour&lt;/em&gt;):&lt;/strong&gt; Satuan kapasitas pendinginan yang sebenarnya. Makin besar angka BTU, makin cepat AC mendinginkan ruangan.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Evaporator:&lt;/strong&gt; Rangkaian pipa berliku di unit indoor yang menyerap panas dari udara kamar.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Inverter:&lt;/strong&gt; Teknologi kompresor dinamis yang putarannya dapat melambat saat suhu tercapai, menghemat listrik hingga 30–50%.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Kondensor:&lt;/strong&gt; Rangkaian pipa di unit outdoor yang bertugas membuang panas ke udara luar.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Kompresor:&lt;/strong&gt; &amp;ldquo;Jantung&amp;rdquo; pada unit outdoor yang memompa refrigeran ke seluruh sistem.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Non-Inverter (Standar):&lt;/strong&gt; Tipe kompresor konvensional dengan sistem kerja mati-hidup (&lt;em&gt;on-off&lt;/em&gt;) penuh.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;PK (&lt;em&gt;Paardekracht&lt;/em&gt;):&lt;/strong&gt; Satuan tenaga mesin AC (daya kuda kompresor). Sering dijadikan acuan ukuran beli (½ PK, 1 PK, dst.).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Refrigeran (Freon):&lt;/strong&gt; Fluida khusus pembawa kalor yang bersirkulasi terus-menerus di dalam pipa AC tertutup.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Vakum:&lt;/strong&gt; Proses pengisapan udara, uap air, dan partikel debu dari dalam pipa tembaga menggunakan pompa vakum khusus sebelum freon dilepaskan.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>Mulai dari Sini</title>
+				<link>http://localhost:1313/mulai/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/mulai/</guid>
+				<description>&lt;p&gt;Selamat datang di titik awal &lt;strong&gt;ACPEDIA®&lt;/strong&gt;. Halaman ini dirancang sebagai jalur belajar terstruktur bagi siapa saja yang ingin memahami Air Conditioner (AC) dari nol tanpa pusing dengan istilah teknis yang rumit.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;jalur-belajar-4-tahap&#34;&gt;Jalur Belajar 4 Tahap:&lt;/h3&gt;&#xA;&lt;h4 id=&#34;tahap-1-konsep-dasar--cara-kerja&#34;&gt;Tahap 1: Konsep Dasar &amp;amp; Cara Kerja&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/blog/cara-kerja-ac/&#34;&gt;Bagaimana Sebenarnya AC Mendinginkan Ruangan?&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/blog/apa-itu-pk-ac/&#34;&gt;Mengenal Satuan Kapasitas: Perbedaan PK, BTU/h, dan Watt&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/blog/fungsi-mode-remote-ac/&#34;&gt;Arti Tombol &amp;amp; Simbol pada Remote AC&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;tahap-2-panduan-memilih--membeli&#34;&gt;Tahap 2: Panduan Memilih &amp;amp; Membeli&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/blog/inverter-vs-standar/&#34;&gt;Inverter vs Non-Inverter (Standar): Mana yang Lebih Hemat?&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/blog/cara-hitung-pk-ruangan/&#34;&gt;Panduan Menghitung PK Sesuai Ukuran Ruangan&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;tahap-3-instalasi--perawatan&#34;&gt;Tahap 3: Instalasi &amp;amp; Perawatan&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/blog/wajib-vakum-instalasi-ac/&#34;&gt;Kenapa Pipa AC Wajib Divakum Saat Pemasangan Baru?&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/blog/mitos-freon-habis/&#34;&gt;Mitos Freon: Kenapa Freon Tidak Pernah Habis Kalau Tidak Bocor?&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Jika Anda menemukan istilah asing saat membaca, periksa artinya di &lt;a href=&#34;http://localhost:1313/glosarium/&#34;&gt;Kamus Glosarium&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Tentang ACPEDIA®</title>
+				<link>http://localhost:1313/tentang/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tentang/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;ACPEDIA®&lt;/strong&gt; adalah platform panduan dan ensiklopedia independen pendingin ruangan (Air Conditioner) berbahasa Indonesia.&lt;/p&gt;&#xA;&lt;p&gt;Misi situs ini adalah menyajikan informasi yang objektif, berbasis prinsip sains refrigerasi, dan mudah dipahami oleh pengguna awam agar:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Tepat saat memilih kapasitas AC sebelum membeli.&lt;/li&gt;&#xA;&lt;li&gt;Mengetahui cara pemakaian hemat listrik.&lt;/li&gt;&#xA;&lt;li&gt;Memahami standar pemasangan teknis yang benar.&lt;/li&gt;&#xA;&lt;li&gt;Menghindari mitos keliru dan kecurangan servis di lapangan.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+	</channel>
+</rss>

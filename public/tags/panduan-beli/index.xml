@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Panduan-Beli on ACPEDIA®</title>
+		<link>http://localhost:1313/tags/panduan-beli/</link>
+		<description>Recent content in Panduan-Beli on ACPEDIA®</description>
+		<generator>Hugo</generator>
+		<language>id-ID</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 19 Sep 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/panduan-beli/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Apa Itu PK pada AC dan Cara Menghitungnya?</title>
+				<link>http://localhost:1313/blog/apa-itu-pk-ac/</link>
+				<pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/apa-itu-pk-ac/</guid>
+				<description>&lt;p&gt;Banyak orang mengira PK adalah singkatan dari penentu dingin atau tidaknya AC secara langsung.&lt;/p&gt;&#xA;&lt;p&gt;Secara harfiah, &lt;strong&gt;PK&lt;/strong&gt; berasal dari bahasa Belanda (&lt;em&gt;Paardekracht&lt;/em&gt;) yang berarti tenaga kuda (&lt;em&gt;Horsepower&lt;/em&gt; atau HP). Dalam sistem pendingin, PK menunjukkan daya penggerak kompresor, sedangkan kapasitas pendinginan sebenarnya diukur dalam satuan &lt;strong&gt;BTU/h&lt;/strong&gt; (&lt;em&gt;British Thermal Unit per hour&lt;/em&gt;).&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Inverter vs Non-Inverter: Mana yang Lebih Hemat Listrik?</title>
+				<link>http://localhost:1313/blog/inverter-vs-standar/</link>
+				<pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/inverter-vs-standar/</guid>
+				<description>&lt;p&gt;Perbedaan mendasar AC Inverter dan Non-Inverter (Standar) terletak pada &lt;strong&gt;cara kerja motor kompresornya&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;AC Non-Inverter (Standar):&lt;/strong&gt; Kompresor bekerja secara &lt;em&gt;On/Off&lt;/em&gt;. Begitu suhu kamar tercapai, kompresor mati total. Saat suhu ruangan naik kembali, kompresor menyala mendadak dengan tarikan daya listrik awal yang tinggi.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;AC Inverter:&lt;/strong&gt; Kompresor bekerja secara dinamis. Saat ruangan mulai sejuk, kompresor tidak mati, melainkan menurunkan putaran mesinnya ke tingkat minimum (daya watt turun drastis).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;mana-yang-harus-anda-pilih&#34;&gt;Mana yang Harus Anda Pilih?&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Pilih Inverter jika:&lt;/strong&gt; AC digunakan dalam durasi panjang (&amp;gt; 6–8 jam berturut-turut), seperti di kamar tidur saat malam hari, dengan pintu/jendela tertutup rapat.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Pilih Non-Inverter jika:&lt;/strong&gt; AC dipasang di ruangan dengan lalu lintas pintu terbuka-tutup tinggi (ruang tamu/toko) atau pemakaian singkat (1–3 jam saja).&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>Rumus Menghitung Kebutuhan PK AC Berdasarkan Luas Ruangan</title>
+				<link>http://localhost:1313/blog/cara-hitung-pk-ruangan/</link>
+				<pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/cara-hitung-pk-ruangan/</guid>
+				<description>&lt;p&gt;Kebutuhan pendinginan ruangan diukur menggunakan satuan &lt;strong&gt;BTU/h&lt;/strong&gt;. Rumus dasarnya adalah:&lt;/p&gt;&#xA;&lt;p&gt;$$\text{Kebutuhan BTU} = \text{Panjang (m)} \times \text{Lebar (m)} \times 500$$&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;(Angka 500 adalah koefisien standar untuk ruangan tinggi plafon 2,5–3 meter di iklim tropis).&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;konversi-nilai-btu-ke-ukuran-pk-ac&#34;&gt;Konversi Nilai BTU ke Ukuran PK AC:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;½ PK:&lt;/strong&gt; ± 5.000 BTU/h (Maksimal ruangan 3 × 3 m)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;¾ PK:&lt;/strong&gt; ± 7.000 BTU/h (Maksimal ruangan 3 × 4 m)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1 PK:&lt;/strong&gt; ± 9.000 BTU/h (Maksimal ruangan 4 × 4 m atau 3 × 5 m)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1½ PK:&lt;/strong&gt; ± 12.000 BTU/h (Maksimal ruangan 4 × 6 m)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;2 PK:&lt;/strong&gt; ± 18.000 BTU/h (Maksimal ruangan 6 × 6 m)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+	</channel>
+</rss>

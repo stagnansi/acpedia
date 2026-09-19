@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Spesifikasi on ACPEDIA®</title>
+		<link>http://localhost:1313/tags/spesifikasi/</link>
+		<description>Recent content in Spesifikasi on ACPEDIA®</description>
+		<generator>Hugo</generator>
+		<language>id-ID</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 19 Sep 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/spesifikasi/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Rumus Menghitung Kebutuhan PK AC Berdasarkan Luas Ruangan</title>
+				<link>http://localhost:1313/blog/cara-hitung-pk-ruangan/</link>
+				<pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/cara-hitung-pk-ruangan/</guid>
+				<description>&lt;p&gt;Kebutuhan pendinginan ruangan diukur menggunakan satuan &lt;strong&gt;BTU/h&lt;/strong&gt;. Rumus dasarnya adalah:&lt;/p&gt;&#xA;&lt;p&gt;$$\text{Kebutuhan BTU} = \text{Panjang (m)} \times \text{Lebar (m)} \times 500$$&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;(Angka 500 adalah koefisien standar untuk ruangan tinggi plafon 2,5–3 meter di iklim tropis).&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;konversi-nilai-btu-ke-ukuran-pk-ac&#34;&gt;Konversi Nilai BTU ke Ukuran PK AC:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;½ PK:&lt;/strong&gt; ± 5.000 BTU/h (Maksimal ruangan 3 × 3 m)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;¾ PK:&lt;/strong&gt; ± 7.000 BTU/h (Maksimal ruangan 3 × 4 m)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1 PK:&lt;/strong&gt; ± 9.000 BTU/h (Maksimal ruangan 4 × 4 m atau 3 × 5 m)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1½ PK:&lt;/strong&gt; ± 12.000 BTU/h (Maksimal ruangan 4 × 6 m)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;2 PK:&lt;/strong&gt; ± 18.000 BTU/h (Maksimal ruangan 6 × 6 m)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,40 @@
+baseURL = "https://acpedia.id/"
+theme = "hugo-bearblog"
+title = "ACPEDIA®"
+
+[languages]
+  [languages.id]
+    label = "Bahasa Indonesia"
+    locale = "id-ID"
+    title = "ACPEDIA®"
+
+[params]
+  description = "Ensiklopedia dan panduan pendingin ruangan (AC) dari A sampai Z untuk pemula."
+  author = "ACPEDIA®"
+  theme = "toggle"
+
+[menu]
+  [[menu.main]]
+    name = "Mulai dari Sini"
+    url = "/mulai/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Semua Tulisan"
+    url = "/blog/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Topik"
+    url = "/tags/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Glosarium"
+    url = "/glosarium/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Tentang"
+    url = "/tentang/"
+    weight = 5
