@@ -1,2 +1,21 @@
-<span>© 2026 ACPEDIA® — Hak cipta dilindungi.</span>
-<a href="#" style="color: var(--link-color); text-decoration: none;">↑ Kembali ke atas</a>
+<span class="copyright">
+  <span class="copy-symbol">©</span>
+  <span class="copy-text">2026 ACPEDIA® — Hak cipta dilindungi.</span>
+</span>
+<span class="back-to-top" id="back-to-top" style="display: none;">
+  <span class="top-arrow">↑</span> <a href="#">Kembali ke atas</a>
+</span>
+
+<script>
+  (function() {
+    function toggleBackToTop() {
+      var btn = document.getElementById("back-to-top");
+      if (!btn) return;
+      var hasScroll = document.documentElement.scrollHeight > window.innerHeight;
+      btn.style.display = hasScroll ? "inline-flex" : "none";
+    }
+    window.addEventListener("DOMContentLoaded", toggleBackToTop);
+    window.addEventListener("load", toggleBackToTop);
+    window.addEventListener("resize", toggleBackToTop);
+  })();
+</script>

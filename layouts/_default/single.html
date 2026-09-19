@@ -3,29 +3,76 @@
   <h1>{{ .Title }}</h1>
   {{ .Content }}
 
-  {{ if and (eq .Type "blog") (or .PrevInSection .NextInSection) }}
-  <nav class="post-nav" style="display: flex; justify-content: space-between; align-items: flex-start; gap: 2rem; margin-top: 2.5rem; padding-top: 1rem; border-top: 1px dashed;">
-    <div style="flex: 1; min-width: 0;">
-      {{ with .PrevInSection }}
-      <div style="display: flex; align-items: baseline; gap: 0.5rem;">
-        <span style="color: var(--link-color); user-select: none; flex-shrink: 0;">←</span>
-        <div style="text-align: left; min-width: 0;">
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        </div>
-      </div>
+  {{ if eq .Type "blog" }}
+    {{ $order := slice 
+      "cara-kerja-ac" 
+      "empat-komponen-utama-siklus-refrigerasi" 
+      "apa-itu-pk-ac" 
+      "karakteristik-refrigeran-r32-r410a-r22" 
+      "fungsi-mode-remote-ac" 
+      "inverter-vs-standar" 
+      "ac-inverter-vs-non-inverter" 
+      "cara-hitung-pk-ruangan" 
+      "kalkulasi-beban-pendinginan-btu-pk" 
+      "tipe-ac-rumah" 
+      "standar-pipa-ac" 
+      "standar-pemasangan-pipa-refrigeran" 
+      "wajib-vakum-instalasi-ac" 
+      "prosedur-vakum-instalasi-ac" 
+      "cara-cuci-filter-ac" 
+      "mitos-freon-habis" 
+      "penyebab-ac-bocor-air" 
+      "penyebab-indoor-ac-bocor-air" 
+      "analisis-pembekuan-pipa-refrigeran" 
+      "standar-pembacaan-kode-eror-ac" 
+    }}
+
+    {{ $currBase := .File.BaseFileName }}
+    {{ $currIdx := -1 }}
+    {{ range $i, $name := $order }}
+      {{ if eq $name $currBase }}
+        {{ $currIdx = $i }}
       {{ end }}
-    </div>
-    <div style="flex: 1; min-width: 0;">
-      {{ with .NextInSection }}
-      <div style="display: flex; align-items: baseline; justify-content: flex-end; gap: 0.5rem;">
-        <div style="text-align: right; min-width: 0;">
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        </div>
-        <span style="color: var(--link-color); user-select: none; flex-shrink: 0;">→</span>
-      </div>
+    {{ end }}
+
+    {{ $prevPost := false }}
+    {{ $nextPost := false }}
+
+    {{ if ne $currIdx -1 }}
+      {{ if gt $currIdx 0 }}
+        {{ $prevSlug := index $order (sub $currIdx 1) }}
+        {{ $prevPost = $.Site.GetPage (printf "/blog/%s" $prevSlug) }}
       {{ end }}
-    </div>
-  </nav>
+      {{ if lt (add $currIdx 1) (len $order) }}
+        {{ $nextSlug := index $order (add $currIdx 1) }}
+        {{ $nextPost = $.Site.GetPage (printf "/blog/%s" $nextSlug) }}
+      {{ end }}
+    {{ end }}
+
+    {{ if or $prevPost $nextPost }}
+    <nav class="post-nav" style="display: flex; justify-content: space-between; align-items: baseline; gap: 2rem; margin-top: 2.5rem; padding-top: 1rem; border-top: 1px dashed;">
+      <div style="flex: 1; min-width: 0;">
+        {{ if $prevPost }}
+        <div style="display: flex; align-items: baseline; gap: 0.5rem;">
+          <span style="color: var(--link-color); user-select: none; flex-shrink: 0;">←</span>
+          <div style="text-align: left; min-width: 0;">
+            <a href="{{ $prevPost.RelPermalink }}">{{ $prevPost.Title }}</a>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+      <div style="flex: 1; min-width: 0;">
+        {{ if $nextPost }}
+        <div style="display: flex; align-items: baseline; justify-content: flex-end; gap: 0.5rem;">
+          <div style="text-align: right; min-width: 0;">
+            <a href="{{ $nextPost.RelPermalink }}">{{ $nextPost.Title }}</a>
+          </div>
+          <span style="color: var(--link-color); user-select: none; flex-shrink: 0;">→</span>
+        </div>
+        {{ end }}
+      </div>
+    </nav>
+    {{ end }}
   {{ end }}
 </main>
 {{ end }}

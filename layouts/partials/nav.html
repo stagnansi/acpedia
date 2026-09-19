@@ -1,0 +1,18 @@
+<nav class="site-nav">
+  {{- $current := . -}}
+  {{- $menuItems := slice -}}
+  {{- if .Site.Menus.main -}}
+    {{- $menuItems = .Site.Menus.main -}}
+  {{- else if .Site.Params.mainMenu -}}
+    {{- $menuItems = .Site.Params.mainMenu -}}
+  {{- end -}}
+
+  {{- range $item := $menuItems -}}
+    {{- $url := or .URL .url -}}
+    {{- $name := or .Name .name -}}
+    {{- $isActive := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) (eq (strings.TrimRight "/" $current.RelPermalink) (strings.TrimRight "/" $url)) -}}
+    <span class="nav-item">
+      <span class="nav-bracket">[</span><a href="{{ $url }}" class="{{ if $isActive }}active{{ end }}">{{ $name }}</a><span class="nav-bracket">]</span>
+    </span>
+  {{- end -}}
+</nav>

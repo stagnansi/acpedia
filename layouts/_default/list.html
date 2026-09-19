@@ -1,0 +1,40 @@
+{{ define "main" }}
+{{ if .Title }}
+  <h1>{{ .Title }}</h1>
+{{ end }}
+{{ .Content }}
+
+{{ $order := slice 
+  "cara-kerja-ac" 
+  "empat-komponen-utama-siklus-refrigerasi" 
+  "apa-itu-pk-ac" 
+  "karakteristik-refrigeran-r32-r410a-r22" 
+  "fungsi-mode-remote-ac" 
+  "inverter-vs-standar" 
+  "ac-inverter-vs-non-inverter" 
+  "cara-hitung-pk-ruangan" 
+  "kalkulasi-beban-pendinginan-btu-pk" 
+  "tipe-ac-rumah" 
+  "standar-pipa-ac" 
+  "standar-pemasangan-pipa-refrigeran" 
+  "wajib-vakum-instalasi-ac" 
+  "prosedur-vakum-instalasi-ac" 
+  "cara-cuci-filter-ac" 
+  "mitos-freon-habis" 
+  "penyebab-ac-bocor-air" 
+  "penyebab-indoor-ac-bocor-air" 
+  "analisis-pembekuan-pipa-refrigeran" 
+  "standar-pembacaan-kode-eror-ac" 
+}}
+
+<ul class="blog-posts">
+  {{ range $order }}
+    {{ with $.Site.GetPage (printf "/blog/%s" .) }}
+    <li>
+      <span></span>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  {{ end }}
+</ul>
+{{ end }}
