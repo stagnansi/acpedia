@@ -1,6 +1,5 @@
 +++
 title = "Kenapa Pipa AC Wajib Divakum Saat Pemasangan Baru?"
-tags = ["instalasi", "teknis"]
 draft = false
 +++
 Pelanggaran standar instalasi yang paling fatal adalah memasang unit baru **tanpa memvakum pipa tembaga**.

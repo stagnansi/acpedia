@@ -1,6 +1,5 @@
 +++
 title = "Inverter vs Non-Inverter: Mana yang Lebih Hemat Listrik?"
-tags = ["panduan-beli", "inverter"]
 draft = false
 +++
 Perbedaan mendasar AC Inverter dan Non-Inverter (Standar) terletak pada **cara kerja motor kompresornya**:

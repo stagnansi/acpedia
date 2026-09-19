@@ -1,6 +1,5 @@
 +++
 title = "Standar Ketebalan dan Panjang Pipa AC yang Wajib Dipatuhi"
-tags = ["instalasi", "teknis"]
 draft = false
 +++
 Banyak pengguna hanya fokus pada merk unit AC, padahal **kualitas pipa tembaga** sangat menentukan keawetan unit.

@@ -29,7 +29,7 @@ Konversi Nilai BTU ke Ukuran PK AC:
 1½ PK: ± 12.000 BTU/h (Maksimal ruangan 4 × 6 m)
 2 PK: ± 18.000 BTU/h (Maksimal ruangan 6 × 6 m)
 " />
-<meta name="keywords" content="panduan-beli,spesifikasi," />
+<meta name="keywords" content="" />
 
 
 <meta property="og:url" content="http://localhost:1313/blog/cara-hitung-pk-ruangan/">
@@ -43,8 +43,6 @@ Luas = 12 m² Kebutuhan BTU = 12 × 500 = 6.000 BTU/h Konversi Nilai BTU ke Ukur
 	<meta property="og:locale" content="id_ID">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="blog">
-		<meta property="article:tag" content="Panduan-Beli">
-		<meta property="article:tag" content="Spesifikasi">
 
 
 
@@ -67,7 +65,6 @@ Rumus Perhitungan Cepat: Kebutuhan BTU = Panjang (m) × Lebar (m) × 500
 Contoh Perhitungan: Untuk kamar tidur berukuran 3 meter × 4 meter:
 Luas = 12 m² Kebutuhan BTU = 12 × 500 = 6.000 BTU/h Konversi Nilai BTU ke Ukuran PK AC: ½ PK: ± 5.000 BTU/h (Maksimal ruangan 3 × 3 m) ¾ PK: ± 7.000 BTU/h (Maksimal ruangan 3 × 4 m) — paling pas untuk contoh di atas 1 PK: ± 9.000 BTU/h (Maksimal ruangan 4 × 4 m atau 3 × 5 m) 1½ PK: ± 12.000 BTU/h (Maksimal ruangan 4 × 6 m) 2 PK: ± 18.000 BTU/h (Maksimal ruangan 6 × 6 m)">
 	<meta itemprop="wordCount" content="142">
-	<meta itemprop="keywords" content="Panduan-Beli,Spesifikasi">
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <style>
@@ -174,15 +171,7 @@ Luas = 12 m² Kebutuhan BTU = 12 × 500 = 6.000 BTU/h Konversi Nilai BTU ke Ukur
     color: var(--text-color);
   }
 
-  table.glossary-grid td a {
-    display: block;
-    padding: 0.75rem 0;
-    font-weight: 600;
-    text-decoration: none;
-    width: 100%;
-    height: 100%;
-    color: var(--link-color);
-  }
+  
 
       table th {
     color: var(--heading-color) !important;
@@ -433,21 +422,9 @@ Luas = 12 m² Kebutuhan BTU = 12 × 500 = 6.000 BTU/h Konversi Nilai BTU ke Ukur
   }
 
    
-  footer {
-    margin-top: 1rem;
-    padding: 1rem 0 1.5rem 0;
-    border-top: 1px dashed;
-    font-size: 0.85rem;
-    opacity: 0.8;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+  
 
-  .top-arrow {
-    color: var(--link-color);
-    user-select: none;
-  }
+  
 
   .back-to-top a {
     color: var(--link-color);
@@ -459,21 +436,11 @@ Luas = 12 m² Kebutuhan BTU = 12 × 500 = 6.000 BTU/h Konversi Nilai BTU ke Ukur
   }
 
   @media (max-width: 600px) {
-    footer {
-      flex-direction: column;
-      align-items: flex-start;  
-      gap: 0.5rem;
-      padding-bottom: 2rem;
-    }
+    
   }
 
    
-  .copyright {
-    display: inline-flex;
-    align-items: baseline;
-    gap: 0.35rem;
-    text-align: left;
-  }
+  
 
   .copy-symbol {
     flex-shrink: 0;
@@ -483,6 +450,101 @@ Luas = 12 m² Kebutuhan BTU = 12 × 500 = 6.000 BTU/h Konversi Nilai BTU ke Ukur
   .copy-text {
     display: inline-block;
     text-align: left;
+  }
+
+   
+  footer {
+    margin-top: 1rem;
+    padding: 1rem 0 1.5rem 0;
+    border-top: 1px dashed;
+    font-size: 0.85rem;
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-row {
+    display: inline-flex;
+    align-items: baseline;
+  }
+
+  .footer-icon {
+    display: inline-block;
+    width: 1.15rem;  
+    flex-shrink: 0;
+    text-align: left;
+    user-select: none;
+  }
+
+  .top-arrow {
+    color: var(--link-color);
+  }
+
+  .footer-text {
+    display: inline-block;
+    text-align: left;
+  }
+
+  .footer-text a {
+    color: var(--link-color);
+    text-decoration: none;
+  }
+
+  .footer-text a:hover {
+    text-decoration: underline !important;
+  }
+
+  @media (max-width: 600px) {
+    footer {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+      padding-bottom: 2rem;
+    }
+  }
+
+   
+  table.glossary-grid {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  table.glossary-grid td {
+    padding: 0;
+    width: 16.666%;
+    text-align: center;
+    transition: background-color 0.15s ease;
+  }
+
+  table.glossary-grid td a {
+    display: block;
+    padding: 0.75rem 0;
+    font-weight: 600;
+    text-decoration: none !important;
+    width: 100%;
+    height: 100%;
+    color: var(--link-color);
+  }
+
+  table.glossary-grid td a:hover {
+    text-decoration: none !important;  
+  }
+
+   
+  table.glossary-grid td:hover:has(a),
+  table.glossary-grid td a:hover {
+    background-color: rgba(125, 125, 125, 0.12);
+  }
+
+  table.glossary-grid td .disabled-letter {
+    display: block;
+    padding: 0.75rem 0;
+    font-weight: 600;
+    color: var(--heading-color);
+    user-select: none;
+    cursor: default;
   }
 </style>
 
@@ -525,8 +587,6 @@ Konversi Nilai BTU ke Ukuran PK AC:
       <span class="nav-bracket">[</span><a href="/mulai/" class="">Mulai dari Sini</a><span class="nav-bracket">]</span>
     </span><span class="nav-item">
       <span class="nav-bracket">[</span><a href="/blog/" class="">Semua Tulisan</a><span class="nav-bracket">]</span>
-    </span><span class="nav-item">
-      <span class="nav-bracket">[</span><a href="/tags/" class="">Topik</a><span class="nav-bracket">]</span>
     </span><span class="nav-item">
       <span class="nav-bracket">[</span><a href="/glosarium/" class="">Glosarium</a><span class="nav-bracket">]</span>
     </span><span class="nav-item">
@@ -651,14 +711,14 @@ Konversi Nilai BTU ke Ukuran PK AC:
 </main>
 
   </main>
-  <footer><span class="copyright">
-  <span class="copy-symbol">©</span>
-  <span class="copy-text">2026 <b>ACPEDIA®</b> — Hak cipta dilindungi.</span>
-</span>
-<span class="back-to-top" id="back-to-top" style="display: none;">
-  <span class="top-arrow">↑</span>
-  <a href="#">Kembali ke atas</a>
-</span>
+  <footer><div class="footer-row copyright">
+  <span class="footer-icon">©</span>
+  <span class="footer-text">2026 <b>ACPEDIA®</b> — Hak cipta dilindungi.</span>
+</div>
+<div class="footer-row back-to-top" id="back-to-top" style="display: none;">
+  <span class="footer-icon top-arrow">↑</span>
+  <span class="footer-text"><a href="#">Kembali ke atas</a></span>
+</div>
 
 <script>
   (function() {

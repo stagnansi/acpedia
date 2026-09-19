@@ -1,6 +1,5 @@
 +++
 title = "Mengenal Satuan Kapasitas: Perbedaan PK, BTU/h, dan Watt"
-tags = ["dasar", "spesifikasi"]
 draft = false
 +++
 Banyak pembeli salah kaprah menganggap **PK** adalah penentu utama dinginnya AC, atau mengira PK berkaitan langsung dengan konsumsi listrik.

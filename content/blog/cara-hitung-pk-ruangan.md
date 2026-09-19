@@ -1,6 +1,5 @@
 +++
 title = "Rumus Menghitung Kebutuhan PK AC Berdasarkan Luas Ruangan"
-tags = ["panduan-beli", "spesifikasi"]
 draft = false
 +++
 Kebutuhan pendinginan ruangan diukur menggunakan satuan **BTU/h** (*British Thermal Unit per hour*).

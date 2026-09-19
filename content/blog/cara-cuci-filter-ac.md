@@ -1,6 +1,5 @@
 +++
 title = "Panduan Membersihkan Filter AC Mandiri Setiap 2–4 Minggu"
-tags = ["perawatan", "mandiri"]
 draft = false
 +++
 Membersihkan filter debu unit indoor adalah perawatan paling mudah yang bisa dilakukan sendiri di rumah tanpa perlu memanggil teknisi.

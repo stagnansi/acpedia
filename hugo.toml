@@ -32,10 +32,7 @@ title = "ACPEDIA®"
     url = "/blog/"
     weight = 2
 
-  [[menu.main]]
-    name = "Topik"
-    url = "/tags/"
-    weight = 3
+  
 
   [[menu.main]]
     name = "Glosarium"
@@ -50,3 +47,4 @@ title = "ACPEDIA®"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+disableTaxonomies = ["taxonomy", "term"]

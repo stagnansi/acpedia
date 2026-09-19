@@ -1,6 +1,5 @@
 +++
 title = "Arti dan Fungsi Tombol Remote AC: Cool, Dry, Fan, dan Eco"
-tags = ["dasar", "penggunaan"]
 draft = false
 +++
 Banyak kasus AC terasa "kurang dingin" bukan karena unit rusak, melainkan karena pengguna salah memilih mode operasional pada remote control.

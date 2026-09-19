@@ -1,6 +1,5 @@
 +++
 title = "Penyebab AC Bocor Meneteskan Air di Dalam Ruangan"
-tags = ["troubleshooting", "perawatan"]
 draft = false
 +++
 Tetesan air dari unit indoor AC adalah keluhan paling umum di rumah tinggal.

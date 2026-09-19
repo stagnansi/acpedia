@@ -1,6 +1,5 @@
 +++
 title = "Bagaimana Sebenarnya AC Mendinginkan Ruangan?"
-tags = ["dasar", "konsep"]
 draft = false
 +++
 AC sebenarnya **tidak memproduksi udara dingin**, melainkan menyerap panas dari dalam ruangan dan membuangnya ke luar rumah melalui siklus fluida refrigeran.

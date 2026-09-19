@@ -15,7 +15,7 @@ Panas udara diserap oleh cairan Refrigeran di dalam pipa tersebut sehingga udara
 Refrigeran pembawa panas dipompa oleh Kompresor menuju unit di luar ruangan (Outdoor).
 Di unit outdoor, kipas membuang panas tersebut ke udara bebas melalui Kondensor. Setelah dingin kembali, refrigeran dialirkan kembali ke indoor.
 " />
-<meta name="keywords" content="dasar,konsep," />
+<meta name="keywords" content="" />
 
 
 <meta property="og:url" content="http://localhost:1313/blog/cara-kerja-ac/">
@@ -26,8 +26,6 @@ Siklus 4 Tahap Sederhana: Udara ruangan disedot oleh blower unit indoor melewati
 	<meta property="og:locale" content="id_ID">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="blog">
-		<meta property="article:tag" content="Dasar">
-		<meta property="article:tag" content="Konsep">
 
 
 
@@ -44,7 +42,6 @@ Siklus 4 Tahap Sederhana: Udara ruangan disedot oleh blower unit indoor melewati
 	<meta itemprop="description" content="AC sebenarnya tidak memproduksi udara dingin, melainkan menyerap panas dari dalam ruangan dan membuangnya ke luar rumah melalui siklus fluida refrigeran.
 Siklus 4 Tahap Sederhana: Udara ruangan disedot oleh blower unit indoor melewati kisi-kisi pipa dingin (Evaporator). Panas udara diserap oleh cairan Refrigeran di dalam pipa tersebut sehingga udara yang keluar kembali menjadi sejuk. Refrigeran pembawa panas dipompa oleh Kompresor menuju unit di luar ruangan (Outdoor). Di unit outdoor, kipas membuang panas tersebut ke udara bebas melalui Kondensor. Setelah dingin kembali, refrigeran dialirkan kembali ke indoor.">
 	<meta itemprop="wordCount" content="86">
-	<meta itemprop="keywords" content="Dasar,Konsep">
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <style>
@@ -151,15 +148,7 @@ Siklus 4 Tahap Sederhana: Udara ruangan disedot oleh blower unit indoor melewati
     color: var(--text-color);
   }
 
-  table.glossary-grid td a {
-    display: block;
-    padding: 0.75rem 0;
-    font-weight: 600;
-    text-decoration: none;
-    width: 100%;
-    height: 100%;
-    color: var(--link-color);
-  }
+  
 
       table th {
     color: var(--heading-color) !important;
@@ -410,21 +399,9 @@ Siklus 4 Tahap Sederhana: Udara ruangan disedot oleh blower unit indoor melewati
   }
 
    
-  footer {
-    margin-top: 1rem;
-    padding: 1rem 0 1.5rem 0;
-    border-top: 1px dashed;
-    font-size: 0.85rem;
-    opacity: 0.8;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+  
 
-  .top-arrow {
-    color: var(--link-color);
-    user-select: none;
-  }
+  
 
   .back-to-top a {
     color: var(--link-color);
@@ -436,21 +413,11 @@ Siklus 4 Tahap Sederhana: Udara ruangan disedot oleh blower unit indoor melewati
   }
 
   @media (max-width: 600px) {
-    footer {
-      flex-direction: column;
-      align-items: flex-start;  
-      gap: 0.5rem;
-      padding-bottom: 2rem;
-    }
+    
   }
 
    
-  .copyright {
-    display: inline-flex;
-    align-items: baseline;
-    gap: 0.35rem;
-    text-align: left;
-  }
+  
 
   .copy-symbol {
     flex-shrink: 0;
@@ -460,6 +427,101 @@ Siklus 4 Tahap Sederhana: Udara ruangan disedot oleh blower unit indoor melewati
   .copy-text {
     display: inline-block;
     text-align: left;
+  }
+
+   
+  footer {
+    margin-top: 1rem;
+    padding: 1rem 0 1.5rem 0;
+    border-top: 1px dashed;
+    font-size: 0.85rem;
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-row {
+    display: inline-flex;
+    align-items: baseline;
+  }
+
+  .footer-icon {
+    display: inline-block;
+    width: 1.15rem;  
+    flex-shrink: 0;
+    text-align: left;
+    user-select: none;
+  }
+
+  .top-arrow {
+    color: var(--link-color);
+  }
+
+  .footer-text {
+    display: inline-block;
+    text-align: left;
+  }
+
+  .footer-text a {
+    color: var(--link-color);
+    text-decoration: none;
+  }
+
+  .footer-text a:hover {
+    text-decoration: underline !important;
+  }
+
+  @media (max-width: 600px) {
+    footer {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+      padding-bottom: 2rem;
+    }
+  }
+
+   
+  table.glossary-grid {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  table.glossary-grid td {
+    padding: 0;
+    width: 16.666%;
+    text-align: center;
+    transition: background-color 0.15s ease;
+  }
+
+  table.glossary-grid td a {
+    display: block;
+    padding: 0.75rem 0;
+    font-weight: 600;
+    text-decoration: none !important;
+    width: 100%;
+    height: 100%;
+    color: var(--link-color);
+  }
+
+  table.glossary-grid td a:hover {
+    text-decoration: none !important;  
+  }
+
+   
+  table.glossary-grid td:hover:has(a),
+  table.glossary-grid td a:hover {
+    background-color: rgba(125, 125, 125, 0.12);
+  }
+
+  table.glossary-grid td .disabled-letter {
+    display: block;
+    padding: 0.75rem 0;
+    font-weight: 600;
+    color: var(--heading-color);
+    user-select: none;
+    cursor: default;
   }
 </style>
 
@@ -488,8 +550,6 @@ Di unit outdoor, kipas membuang panas tersebut ke udara bebas melalui Kondensor.
       <span class="nav-bracket">[</span><a href="/mulai/" class="">Mulai dari Sini</a><span class="nav-bracket">]</span>
     </span><span class="nav-item">
       <span class="nav-bracket">[</span><a href="/blog/" class="">Semua Tulisan</a><span class="nav-bracket">]</span>
-    </span><span class="nav-item">
-      <span class="nav-bracket">[</span><a href="/tags/" class="">Topik</a><span class="nav-bracket">]</span>
     </span><span class="nav-item">
       <span class="nav-bracket">[</span><a href="/glosarium/" class="">Glosarium</a><span class="nav-bracket">]</span>
     </span><span class="nav-item">
@@ -590,14 +650,14 @@ Di unit outdoor, kipas membuang panas tersebut ke udara bebas melalui Kondensor.
 </main>
 
   </main>
-  <footer><span class="copyright">
-  <span class="copy-symbol">©</span>
-  <span class="copy-text">2026 <b>ACPEDIA®</b> — Hak cipta dilindungi.</span>
-</span>
-<span class="back-to-top" id="back-to-top" style="display: none;">
-  <span class="top-arrow">↑</span>
-  <a href="#">Kembali ke atas</a>
-</span>
+  <footer><div class="footer-row copyright">
+  <span class="footer-icon">©</span>
+  <span class="footer-text">2026 <b>ACPEDIA®</b> — Hak cipta dilindungi.</span>
+</div>
+<div class="footer-row back-to-top" id="back-to-top" style="display: none;">
+  <span class="footer-icon top-arrow">↑</span>
+  <span class="footer-text"><a href="#">Kembali ke atas</a></span>
+</div>
 
 <script>
   (function() {

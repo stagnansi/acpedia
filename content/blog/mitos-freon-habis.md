@@ -1,6 +1,5 @@
 +++
 title = "Mitos Isi Ulang Freon: AC Tidak Pernah Kehabisan Freon Jika Tidak Bocor"
-tags = ["troubleshooting", "perawatan"]
 draft = false
 +++
 Salah satu jebakan yang sering dialami pengguna AC awam adalah klaim oknum teknisi: *"Freonnya habis karena sudah lama dipakai, wajib diisi ulang."*

@@ -1,6 +1,5 @@
 +++
 title = "Mengenal Tipe-Tipe AC Rumah: Split Wall, Portable, hingga Cassette"
-tags = ["dasar", "panduan-beli"]
 draft = false
 +++
 Di pasaran terdapat beberapa jenis AC yang dirancang untuk kebutuhan dan karakteristik ruangan yang berbeda:
